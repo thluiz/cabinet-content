@@ -2,7 +2,6 @@
 created: 2023-03-01T21:36:51 (UTC -03:00)
 tags: []
 source: http://ithare.com/multi-coring-and-non-blocking-instead-of-multi-threading-with-a-script/3/
-author: Author:
 ---
 
 # “Multi-Coring" and “Non-Blocking“ instead of "Multi-Threading" - with a Script - Page 3 of 4 - IT Hare on Soft.ware

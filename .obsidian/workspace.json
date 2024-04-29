@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f5f43cd5077c4b65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/2024/03/Multi-Coring and Non-Blocking instead of Multi-Threading.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/2023/Learning the Art of Micro Talk.md",
+                "file": "Inbox/2024/03/Multi-Coring and Non-Blocking instead of Multi-Threading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/2023/Learning the Art of Micro Talk.md",
+                "file": "Inbox/2024/03/Multi-Coring and Non-Blocking instead of Multi-Threading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/2023/Learning the Art of Micro Talk.md"
+                "file": "Inbox/2024/03/Multi-Coring and Non-Blocking instead of Multi-Threading.md"
               }
             }
           }
@@ -159,8 +171,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94e3011d1190ac90",
+  "active": "f5f43cd5077c4b65",
   "lastOpenFiles": [
+    "Inbox/2023/Learning the Art of Micro Talk.md",
     "Inbox/2024/01/Dr Milan Milanović no X 𝗪𝗵𝗮𝘁 𝗶𝘀 𝘁𝗵𝗲 𝗺𝗼𝘀𝘁 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝘁𝗵𝗶𝗻𝗴 𝗶𝗻 𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝘀𝗰𝗶𝗲𝗻𝗰𝗲.md",
     "Inbox/2024/03/calendar skeleton.md",
     "Inbox/2024/02/The Ultimate Guide to Cloud-Native Architecture  Blog - BairesDev.md",
@@ -186,7 +199,6 @@
     "Inbox/2024/04/'A essência da inteligência é ver o futuro e não saber das coisas' as previsões do físico visionário Michio Kaku.md",
     "Inbox/2024/04/A Beginner's Guide to Architectural Patterns - Java Code Geeks.md",
     "Inbox/2024/04/A 4ª onda de pagamentos com soluções para cada tipo de empresa.md",
-    "Inbox/2024/04/A Video Game that Pays Lessons Learned from Working Remotely.md",
     "Inbox/2023",
     "Inbox/New folder",
     "Inbox/2024/01",
