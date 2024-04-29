@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/2023/_index.md",
+                "file": "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94e3011d1190ac90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/2024/03/calendar skeleton.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/2023/_index.md",
+                "file": "Inbox/2024/03/calendar skeleton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/2023/_index.md",
+                "file": "Inbox/2024/03/calendar skeleton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/2023/_index.md"
+                "file": "Inbox/2024/03/calendar skeleton.md"
               }
             }
           }
@@ -146,34 +159,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c91d690b84d05f9b",
+  "active": "94e3011d1190ac90",
   "lastOpenFiles": [
-    "Receitas/Arroz de Brócolis com Amêndoas e Alho - Presunto Vegetariano.md",
-    "Receitas/Arroz Carreteiro na Pressão  Receitas na Pressão.md",
-    "Inbox/2023/Alekson Fortes on X Meu custo de vida em Montreal, Canada 🇨🇦 Depois que vi os custos na Italia, tomei um susto com o que gasto no Canada. Pode ser que eu esteja gastando mais do que o necessario, mas eu a.md",
-    "Inbox/2023/Avoid using enums in the domain layer in C  InfoWorld.md",
-    "Inbox/2023/Auren Hoffman on X How can I accelerate my personal growth Most smart people out of college grow an average of under 10_ per year. Which means they are roughly twice as effective 7 years after graduating co.md",
-    "Inbox/2023/Artists Who Use Reference Are Cheaters.md",
-    "Inbox/2023/Books That Helped Me Become a Tech Lead - DEV Community.md",
-    "Inbox/2023/Best Practices for Writing Unit Tests - DZone.md",
-    "Inbox/2023/Best and Worst Practices for Mock Objects  Jeremy D. Miller.md",
-    "Inbox/2023/Backend Projects 🏗️ for Transitioning to a Senior-Level 🙌 Developer 🧑_💻  by Isreal  Jul, 2023  Bootcamp.md",
+    "Inbox/2024/02/The Ultimate Guide to Cloud-Native Architecture  Blog - BairesDev.md",
+    "Inbox/2024/02/The 1-3-5 Rule, Finding Growth, and Embracing Discipline  HackerNoon.md",
+    "Receitas/Tender Vegano ao Molho de Laranja - Receita Natureba.md",
+    "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md",
+    "Receitas/Sopa Creme de Legumes na Pressão  Receitas na Pressão.md",
+    "Inbox/2024/02/Simple Design  DevIQ (2).md",
+    "Inbox/2024/02/Simple Design  DevIQ.md",
+    "Receitas/10 receitas de uma panela só para apaixonados por macarrão.md",
     "Inbox/2023/An introduction to the heap data structure and .NET's priority queue.md",
-    "Receitas/Caldo Verde na Pressão  Receitas na Pressão.md",
-    "Inbox/2024/01/Chose life over balance to own your future.md",
-    "Inbox/2024/01/Choreography Pattern Optimizing Communication in Distributed Systems - DZone.md",
-    "Inbox/2024/01/Choosing Between Boring and Exciting Tech 🔥.md",
-    "Inbox/2024/01/Chinese Kung Fu or Wushu Spirit and Skills of Chinese Martial Arts.md",
-    "Inbox/2024/01/Childhoods of exceptional people - LessWrong.md",
-    "Inbox/2024/01/Commit to competence in this coming year.md",
-    "Inbox/2024/01/Command Line Interface Guidelines.md",
-    "Inbox/2024/01/Books – Chelsea Troy.md",
-    "Inbox/2024/01/Clustering Elixir From Laptop to Cloud · The Phoenix Files.md",
-    "Inbox/2024/01/Clean Code - Part 1 - DEV Community.md",
-    "Inbox/2024/01/Constant Curiosity What They Don't Teach You at School  HackerNoon.md",
-    "Inbox/2024/01/Conceito - Ideias de Questões para Entrevistas System Design - DEV Community.md",
-    "Inbox/2024/01/Como os trabalhadores conquistaram o final de semana.md",
-    "Inbox/2024/01/Corretoras de câmbio abrem contas em banco gringo. Por que isso é uma boa notícia  Investimento no Exterior  Valor Investe.md",
+    "Inbox/2023/Alekson Fortes on X Meu custo de vida em Montreal, Canada 🇨🇦 Depois que vi os custos na Italia, tomei um susto com o que gasto no Canada. Pode ser que eu esteja gastando mais do que o necessario, mas eu a.md",
+    "Inbox/2023/Artists Who Use Reference Are Cheaters.md",
+    "Inbox/2023/Auren Hoffman on X How can I accelerate my personal growth Most smart people out of college grow an average of under 10_ per year. Which means they are roughly twice as effective 7 years after graduating co.md",
+    "Inbox/2023/_index.md",
+    "Inbox/2023/I'm a boring programmer (and proud of it).md",
+    "Inbox/2023/I’m a boring programmer (and proud of it) - Signal v. Noise.md",
+    "Inbox/2024/04/Computer Science fundamentals are still important. - DEV Community.md",
+    "Inbox/2024/04/Delete code to accelerate your dev career - DEV Community.md",
+    "Inbox/2024/04/Write good commit messages to accelerate your dev career - DEV Community.md",
+    "Inbox/2024/04/Future proof code - DEV Community.md",
+    "Inbox/2024/04/'Die With Zero' Author's Equation for Retiring Comfortably.md",
+    "Inbox/2024/04/'A essência da inteligência é ver o futuro e não saber das coisas' as previsões do físico visionário Michio Kaku.md",
+    "Inbox/2024/04/A Beginner's Guide to Architectural Patterns - Java Code Geeks.md",
+    "Inbox/2024/04/A 4ª onda de pagamentos com soluções para cada tipo de empresa.md",
+    "Inbox/2024/04/A Video Game that Pays Lessons Learned from Working Remotely.md",
+    "Inbox/2024/04/A Senior Engineer’s Guide to the System Design Interview  interviewing.io.md",
+    "Inbox/2024/04/A Rubric for Evaluating Team Members’ Contributions to a Maintainable Code Base – Chelsea Troy.md",
     "Inbox/2023",
     "Inbox/New folder",
     "Inbox/2024/01",
