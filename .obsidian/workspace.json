@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/2024/03/Multi-Coring and Non-Blocking instead of Multi-Threading.md",
+                "file": "Inbox/2024/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/2024/03/Multi-Coring and Non-Blocking instead of Multi-Threading.md",
+                "file": "Inbox/2024/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/2024/03/Multi-Coring and Non-Blocking instead of Multi-Threading.md",
+                "file": "Inbox/2024/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/2024/03/Multi-Coring and Non-Blocking instead of Multi-Threading.md"
+                "file": "Inbox/2024/_index.md"
               }
             }
           }
@@ -173,6 +173,13 @@
   },
   "active": "f5f43cd5077c4b65",
   "lastOpenFiles": [
+    "Inbox/2024/04/_index.md",
+    "Inbox/2024/03/_index.md",
+    "Inbox/2024/01/_index.md",
+    "Inbox/2024/02/_index.md",
+    "Inbox/2023/_index.md",
+    "Inbox/_index.md",
+    "Inbox/2024/03/Multi-Coring and Non-Blocking instead of Multi-Threading.md",
     "Inbox/2023/Learning the Art of Micro Talk.md",
     "Inbox/2024/01/Dr Milan Milanović no X 𝗪𝗵𝗮𝘁 𝗶𝘀 𝘁𝗵𝗲 𝗺𝗼𝘀𝘁 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝘁𝗵𝗶𝗻𝗴 𝗶𝗻 𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝘀𝗰𝗶𝗲𝗻𝗰𝗲.md",
     "Inbox/2024/03/calendar skeleton.md",
@@ -188,17 +195,10 @@
     "Inbox/2023/Alekson Fortes on X Meu custo de vida em Montreal, Canada 🇨🇦 Depois que vi os custos na Italia, tomei um susto com o que gasto no Canada. Pode ser que eu esteja gastando mais do que o necessario, mas eu a.md",
     "Inbox/2023/Artists Who Use Reference Are Cheaters.md",
     "Inbox/2023/Auren Hoffman on X How can I accelerate my personal growth Most smart people out of college grow an average of under 10_ per year. Which means they are roughly twice as effective 7 years after graduating co.md",
-    "Inbox/2023/_index.md",
     "Inbox/2023/I'm a boring programmer (and proud of it).md",
     "Inbox/2023/I’m a boring programmer (and proud of it) - Signal v. Noise.md",
     "Inbox/2024/04/Computer Science fundamentals are still important. - DEV Community.md",
     "Inbox/2024/04/Delete code to accelerate your dev career - DEV Community.md",
-    "Inbox/2024/04/Write good commit messages to accelerate your dev career - DEV Community.md",
-    "Inbox/2024/04/Future proof code - DEV Community.md",
-    "Inbox/2024/04/'Die With Zero' Author's Equation for Retiring Comfortably.md",
-    "Inbox/2024/04/'A essência da inteligência é ver o futuro e não saber das coisas' as previsões do físico visionário Michio Kaku.md",
-    "Inbox/2024/04/A Beginner's Guide to Architectural Patterns - Java Code Geeks.md",
-    "Inbox/2024/04/A 4ª onda de pagamentos com soluções para cada tipo de empresa.md",
     "Inbox/2023",
     "Inbox/New folder",
     "Inbox/2024/01",
