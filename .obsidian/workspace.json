@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/_index.md",
+                "file": "Inbox/Intuitive Understanding Of Euler’s Formula – BetterExplained.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/_index.md",
+                "file": "Inbox/Intuitive Understanding Of Euler’s Formula – BetterExplained.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/_index.md",
+                "file": "Inbox/Intuitive Understanding Of Euler’s Formula – BetterExplained.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/_index.md"
+                "file": "Inbox/Intuitive Understanding Of Euler’s Formula – BetterExplained.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "c91d690b84d05f9b",
   "lastOpenFiles": [
+    "Inbox/_index.md",
     "Inbox/Intuitive Understanding Of Euler’s Formula – BetterExplained.md",
     "Inbox/o alvissareiro - o jovem é preguiçoso.mp3",
     "example/_index.md",
-    "Inbox/_index.md",
     "features/_index.md",
     "setup/_index.md",
     "_index.md",
