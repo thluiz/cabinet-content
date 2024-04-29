@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/2024/01/_index.md",
+                "file": "Inbox/2023/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/2024/01/_index.md",
+                "file": "Inbox/2023/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/2024/01/_index.md",
+                "file": "Inbox/2023/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/2024/01/_index.md"
+                "file": "Inbox/2023/_index.md"
               }
             }
           }
@@ -148,36 +148,36 @@
   },
   "active": "c91d690b84d05f9b",
   "lastOpenFiles": [
-    "Inbox/2024/02/_index.md",
-    "Inbox/2024/03/_index.md",
-    "Inbox/2023/_index.md",
-    "Inbox/2023/Particular Software on X If your business events are packed with a bunch of properties (aside from IDs) you're just creating hidden coupling with other services, and need to reanalyze your service boundarie.md",
-    "Inbox/2023/Patterns for Building LLM-based Systems & Products.md",
-    "Inbox/2023/PearConf Keynote – The Technology and Psychology of Refactoring – Chelsea Troy.md",
-    "Inbox/2023/PearConf Keynote – The Technology and Psychology of Refactoring – Chelsea Troy (1).md",
-    "Inbox/2023/PoSD 3 Debugging Tactics – Chelsea Troy.md",
-    "Inbox/2023/Please Stop Using The Feedback Sandwich.md",
-    "Inbox/2023/Philosophy of Software Design Pt. 1 – Chelsea Troy.md",
-    "Inbox/2023/Personal Roadmap for becoming a better software developer in 2024 - DEV Community.md",
-    "Inbox/2023/Programmer Skills That Make a Difference.md",
-    "Inbox/2023/Principles of Lean Software Development  Blog.md",
-    "Inbox/2023/Precisamos de uma semana de trabalho de quatro dias.md",
-    "Inbox/2023/PoSD 4 Don’t knock things you haven’t tried – Chelsea Troy.md",
-    "Inbox/2023/Para onde foram os empregos de merda.md",
+    "Receitas/Arroz de Brócolis com Amêndoas e Alho - Presunto Vegetariano.md",
+    "Receitas/Arroz Carreteiro na Pressão  Receitas na Pressão.md",
+    "Inbox/2023/Alekson Fortes on X Meu custo de vida em Montreal, Canada 🇨🇦 Depois que vi os custos na Italia, tomei um susto com o que gasto no Canada. Pode ser que eu esteja gastando mais do que o necessario, mas eu a.md",
+    "Inbox/2023/Avoid using enums in the domain layer in C  InfoWorld.md",
+    "Inbox/2023/Auren Hoffman on X How can I accelerate my personal growth Most smart people out of college grow an average of under 10_ per year. Which means they are roughly twice as effective 7 years after graduating co.md",
+    "Inbox/2023/Artists Who Use Reference Are Cheaters.md",
+    "Inbox/2023/Books That Helped Me Become a Tech Lead - DEV Community.md",
+    "Inbox/2023/Best Practices for Writing Unit Tests - DZone.md",
+    "Inbox/2023/Best and Worst Practices for Mock Objects  Jeremy D. Miller.md",
+    "Inbox/2023/Backend Projects 🏗️ for Transitioning to a Senior-Level 🙌 Developer 🧑_💻  by Isreal  Jul, 2023  Bootcamp.md",
+    "Inbox/2023/An introduction to the heap data structure and .NET's priority queue.md",
+    "Receitas/Caldo Verde na Pressão  Receitas na Pressão.md",
+    "Inbox/2024/01/Chose life over balance to own your future.md",
+    "Inbox/2024/01/Choreography Pattern Optimizing Communication in Distributed Systems - DZone.md",
+    "Inbox/2024/01/Choosing Between Boring and Exciting Tech 🔥.md",
+    "Inbox/2024/01/Chinese Kung Fu or Wushu Spirit and Skills of Chinese Martial Arts.md",
+    "Inbox/2024/01/Childhoods of exceptional people - LessWrong.md",
+    "Inbox/2024/01/Commit to competence in this coming year.md",
+    "Inbox/2024/01/Command Line Interface Guidelines.md",
+    "Inbox/2024/01/Books – Chelsea Troy.md",
+    "Inbox/2024/01/Clustering Elixir From Laptop to Cloud · The Phoenix Files.md",
+    "Inbox/2024/01/Clean Code - Part 1 - DEV Community.md",
+    "Inbox/2024/01/Constant Curiosity What They Don't Teach You at School  HackerNoon.md",
+    "Inbox/2024/01/Conceito - Ideias de Questões para Entrevistas System Design - DEV Community.md",
+    "Inbox/2024/01/Como os trabalhadores conquistaram o final de semana.md",
+    "Inbox/2024/01/Corretoras de câmbio abrem contas em banco gringo. Por que isso é uma boa notícia  Investimento no Exterior  Valor Investe.md",
     "Inbox/2023",
     "Inbox/New folder",
-    "Receitas/Receita de Pavê vegano de abacaxi, enviada por abima - TudoGostoso.md",
-    "Receitas/Receita de Sorvete vegano de maracujá, enviada por luiza hirsch - TudoGostoso.md",
-    "Inbox/2024/01/_index.md",
-    "Inbox/2024/01/Random Thoughts 15 years into Software Engineering.md",
-    "Inbox/2024/01/Quantifying Technical Debt – Chelsea Troy.md",
-    "Inbox/2024/01/Qual a postura correta para sentar em frente ao computador - Slikdesk.md",
-    "Inbox/2024/01/SQL unleashed 9 ways to speed up your SQL queries  InfoWorld.md",
-    "Inbox/2024/01/Seamless Rendering The Magic of Blazor’s Auto Render Mode in .NET 8 – Daniel Donbavand.md",
-    "Inbox/2024/01/Por que aprender OCaml - DEV Community.md",
     "Inbox/2024/01",
     "Inbox/2024/New folder",
-    "Receitas/Rocambole Assado de Lentilha e Quinoa - Presunto Vegetariano.md",
     "Receitas",
     "New folder",
     "Inbox/2024/02",
