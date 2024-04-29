@@ -1,7 +1,7 @@
 ---
 weight: -10
 bookCollapseSection: true
-title: Example Site
+title: Inbox
 ---
 
 # Introdução
