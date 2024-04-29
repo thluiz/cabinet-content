@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/_index.md",
+                "file": "Inbox/2024/03/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/_index.md",
+                "file": "Inbox/2024/03/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/_index.md",
+                "file": "Inbox/2024/03/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/_index.md"
+                "file": "Inbox/2024/03/_index.md"
               }
             }
           }
@@ -148,9 +148,11 @@
   },
   "active": "c91d690b84d05f9b",
   "lastOpenFiles": [
+    "Inbox/_index.md",
+    "Inbox/2024/03/_index.md",
+    "Inbox/2024/03",
     "Inbox/2024/_index.md",
     "Inbox/2024/04/Intuitive Understanding Of Euler’s Formula – BetterExplained.md",
-    "Inbox/_index.md",
     "Inbox/2024/04/_index.md",
     "Inbox/2024/04",
     "Inbox/2024",
