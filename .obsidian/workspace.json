@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/2024/03/_index.md",
+                "file": "Inbox/2024/01/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/2024/03/_index.md",
+                "file": "Inbox/2024/01/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/2024/03/_index.md",
+                "file": "Inbox/2024/01/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/2024/03/_index.md"
+                "file": "Inbox/2024/01/_index.md"
               }
             }
           }
@@ -148,19 +148,41 @@
   },
   "active": "c91d690b84d05f9b",
   "lastOpenFiles": [
-    "Inbox/_index.md",
+    "Inbox/2024/02/_index.md",
     "Inbox/2024/03/_index.md",
+    "Inbox/2023/_index.md",
+    "Inbox/2023/Particular Software on X If your business events are packed with a bunch of properties (aside from IDs) you're just creating hidden coupling with other services, and need to reanalyze your service boundarie.md",
+    "Inbox/2023/Patterns for Building LLM-based Systems & Products.md",
+    "Inbox/2023/PearConf Keynote – The Technology and Psychology of Refactoring – Chelsea Troy.md",
+    "Inbox/2023/PearConf Keynote – The Technology and Psychology of Refactoring – Chelsea Troy (1).md",
+    "Inbox/2023/PoSD 3 Debugging Tactics – Chelsea Troy.md",
+    "Inbox/2023/Please Stop Using The Feedback Sandwich.md",
+    "Inbox/2023/Philosophy of Software Design Pt. 1 – Chelsea Troy.md",
+    "Inbox/2023/Personal Roadmap for becoming a better software developer in 2024 - DEV Community.md",
+    "Inbox/2023/Programmer Skills That Make a Difference.md",
+    "Inbox/2023/Principles of Lean Software Development  Blog.md",
+    "Inbox/2023/Precisamos de uma semana de trabalho de quatro dias.md",
+    "Inbox/2023/PoSD 4 Don’t knock things you haven’t tried – Chelsea Troy.md",
+    "Inbox/2023/Para onde foram os empregos de merda.md",
+    "Inbox/2023",
+    "Inbox/New folder",
+    "Receitas/Receita de Pavê vegano de abacaxi, enviada por abima - TudoGostoso.md",
+    "Receitas/Receita de Sorvete vegano de maracujá, enviada por luiza hirsch - TudoGostoso.md",
+    "Inbox/2024/01/_index.md",
+    "Inbox/2024/01/Random Thoughts 15 years into Software Engineering.md",
+    "Inbox/2024/01/Quantifying Technical Debt – Chelsea Troy.md",
+    "Inbox/2024/01/Qual a postura correta para sentar em frente ao computador - Slikdesk.md",
+    "Inbox/2024/01/SQL unleashed 9 ways to speed up your SQL queries  InfoWorld.md",
+    "Inbox/2024/01/Seamless Rendering The Magic of Blazor’s Auto Render Mode in .NET 8 – Daniel Donbavand.md",
+    "Inbox/2024/01/Por que aprender OCaml - DEV Community.md",
+    "Inbox/2024/01",
+    "Inbox/2024/New folder",
+    "Receitas/Rocambole Assado de Lentilha e Quinoa - Presunto Vegetariano.md",
+    "Receitas",
+    "New folder",
+    "Inbox/2024/02",
     "Inbox/2024/03",
-    "Inbox/2024/_index.md",
-    "Inbox/2024/04/Intuitive Understanding Of Euler’s Formula – BetterExplained.md",
-    "Inbox/2024/04/_index.md",
     "Inbox/2024/04",
-    "Inbox/2024",
-    "Inbox/o alvissareiro - o jovem é preguiçoso.mp3",
-    "example/_index.md",
-    "features/_index.md",
-    "setup/_index.md",
-    "_index.md",
-    "Inbox"
+    "Inbox/2024"
   ]
 }
