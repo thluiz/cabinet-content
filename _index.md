@@ -3,7 +3,7 @@ title: 💜 Welcome to Amethyst!
 enableToc: false
 ---
 
-## What is Amethyst?
+## What is Amethyst - test?
 Amethyst is a free [Obsidian Publish](https://obsidian.md/publish) alternative that is derived from two existing projects, [Quartz](https://quartz.jzhao.xyz/) and [Hugo Book](https://github.com/alex-shpak/hugo-book).
 
 The purpose of Amethyst is to provide a space to publish more structured notes created in Obsidian that may not fit in the [digital garden](https://joelhooks.com/digital-garden/) archetype that is well-supported by existing projects.
