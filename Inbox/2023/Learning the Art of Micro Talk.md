@@ -2,7 +2,7 @@
 created: 2023-10-23T13:51:10 (UTC -03:00)
 tags: []
 source: https://www.psychologytoday.com/us/blog/social-instincts/202310/learning-the-art-of-micro-talk-can-lead-to-profound-bonds?utm_source=artifact
-author: Online: Awake Therapy
+author: Online Awake Therapy
 ---
 
 # Learning the Art of Micro Talk Can Lead to Profound Bonds | Psychology Today
