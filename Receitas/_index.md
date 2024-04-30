@@ -1,10 +1,10 @@
 ---
-title: "2024"
+title: Receitas
 bookCollapseSection: true
-bookToc: true
+bookToc: false
 ---
 
-# Notas do Ano 2024
+# Receitas!
 
 
 
