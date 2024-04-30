@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Receitas/_index.md",
+                "file": "Receitas/Receita de Sorvete vegano de maracujá, enviada por luiza hirsch - TudoGostoso.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Receitas/_index.md",
+                "file": "Receitas/Receita de Sorvete vegano de maracujá, enviada por luiza hirsch - TudoGostoso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Receitas/_index.md",
+                "file": "Receitas/Receita de Sorvete vegano de maracujá, enviada por luiza hirsch - TudoGostoso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Receitas/_index.md"
+                "file": "Receitas/Receita de Sorvete vegano de maracujá, enviada por luiza hirsch - TudoGostoso.md"
               }
             }
           }
@@ -173,6 +173,11 @@
   },
   "active": "f5f43cd5077c4b65",
   "lastOpenFiles": [
+    "Receitas/Rocambole Assado de Lentilha e Quinoa - Presunto Vegetariano.md",
+    "Receitas/Salpicão Vegano - Presunto Vegetariano.md",
+    "Receitas/Sopa Creme de Legumes na Pressão  Receitas na Pressão.md",
+    "Receitas/Receita de Sorvete vegano de maracujá, enviada por luiza hirsch - TudoGostoso.md",
+    "Receitas/_index.md",
     "Inbox/2024/03/Eric Evans Encourages DDD Practitioners to Experiment with LLMs - InfoQ.md",
     "Inbox/2024/03/Is it moral to lock writing behind paywalls - by Erik Hoel.md",
     "Inbox/2024/03/desktop.ini",
@@ -191,16 +196,11 @@
     "Inbox/2024/04/Publish and Consume Messages with MassTransit and RabbitMQ in .Net 6  DevOps.dev.md",
     "Inbox/2024/04/How to NOT answer Where do you see yourself in 5 years - DEV Community.md",
     "Inbox/2024/_index.md",
-    "Receitas/_index.md",
     "_index.md",
     "Inbox/_index.md",
     "Inbox/2024/04/_index.md",
     "Inbox/2024/03/_index.md",
     "Inbox/2024/01/_index.md",
-    "Inbox/2024/02/_index.md",
-    "Inbox/2023/_index.md",
-    "Inbox/2024/03/Multi-Coring and Non-Blocking instead of Multi-Threading.md",
-    "Inbox/2023/Learning the Art of Micro Talk.md",
     "Inbox/2023",
     "Inbox/New folder",
     "Inbox/2024/01",
