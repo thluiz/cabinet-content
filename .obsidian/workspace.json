@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "Receitas/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "Receitas/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "Receitas/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_index.md"
+                "file": "Receitas/_index.md"
               }
             }
           }
@@ -173,8 +173,10 @@
   },
   "active": "f5f43cd5077c4b65",
   "lastOpenFiles": [
-    "Inbox/_index.md",
     "Inbox/2024/_index.md",
+    "Receitas/_index.md",
+    "_index.md",
+    "Inbox/_index.md",
     "Inbox/2024/04/_index.md",
     "Inbox/2024/03/_index.md",
     "Inbox/2024/01/_index.md",
@@ -197,8 +199,6 @@
     "Inbox/2023/Artists Who Use Reference Are Cheaters.md",
     "Inbox/2023/Auren Hoffman on X How can I accelerate my personal growth Most smart people out of college grow an average of under 10_ per year. Which means they are roughly twice as effective 7 years after graduating co.md",
     "Inbox/2023/I'm a boring programmer (and proud of it).md",
-    "Inbox/2023/I’m a boring programmer (and proud of it) - Signal v. Noise.md",
-    "Inbox/2024/04/Computer Science fundamentals are still important. - DEV Community.md",
     "Inbox/2023",
     "Inbox/New folder",
     "Inbox/2024/01",
