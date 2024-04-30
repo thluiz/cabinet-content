@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/2024/_index.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/2024/_index.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/2024/_index.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/2024/_index.md"
+                "file": "_index.md"
               }
             }
           }
@@ -173,12 +173,13 @@
   },
   "active": "f5f43cd5077c4b65",
   "lastOpenFiles": [
+    "Inbox/_index.md",
+    "Inbox/2024/_index.md",
     "Inbox/2024/04/_index.md",
     "Inbox/2024/03/_index.md",
     "Inbox/2024/01/_index.md",
     "Inbox/2024/02/_index.md",
     "Inbox/2023/_index.md",
-    "Inbox/_index.md",
     "Inbox/2024/03/Multi-Coring and Non-Blocking instead of Multi-Threading.md",
     "Inbox/2023/Learning the Art of Micro Talk.md",
     "Inbox/2024/01/Dr Milan Milanović no X 𝗪𝗵𝗮𝘁 𝗶𝘀 𝘁𝗵𝗲 𝗺𝗼𝘀𝘁 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝘁𝗵𝗶𝗻𝗴 𝗶𝗻 𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝘀𝗰𝗶𝗲𝗻𝗰𝗲.md",
@@ -198,7 +199,6 @@
     "Inbox/2023/I'm a boring programmer (and proud of it).md",
     "Inbox/2023/I’m a boring programmer (and proud of it) - Signal v. Noise.md",
     "Inbox/2024/04/Computer Science fundamentals are still important. - DEV Community.md",
-    "Inbox/2024/04/Delete code to accelerate your dev career - DEV Community.md",
     "Inbox/2023",
     "Inbox/New folder",
     "Inbox/2024/01",
