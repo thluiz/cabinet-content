@@ -53,4 +53,3 @@ Com o caldo bem quente, adicione o bacon, a linguiça, a salsinha, cebolinha e a
 
 **Dicas:** Se desejar poderá dobrar a receita, para isso basta dobrar todas as quantidades, usando o mesmo modo de preparo e tempo.
 
-**É PROIBIDA a cópia e reprodução deste conteúdo em qualquer formato, seja texto, print, imagem, fotos ou impressos, e não é permitida a distribuição em outros canais, blogs, sites, grupos, impressos ou redes sociais. Conteúdo protegido por direitos autorais! Quer dividir ou enviar para alguém? Use os botões abaixo ou compartilhe apenas o link.**

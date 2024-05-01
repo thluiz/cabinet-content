@@ -43,4 +43,3 @@ Fatie e sirva com molho por cima, ou se desejar fatie e deixe as fatias mergulha
 
 **[VEJA ESTA RECEITA EM VÍDEO, CLIQUE AQUI!](https://youtu.be/3IoQzcPkxt4)**
 
-**É PROIBIDA a cópia e reprodução deste conteúdo em qualquer formato, seja texto, print, imagem, fotos ou impressos, e não é permitida a distribuição em outros canais, blogs, sites, grupos, impressos ou redes sociais. Conteúdo protegido por direitos autorais! Quer dividir ou enviar para alguém? Use os botões abaixo ou compartilhe apenas o link.**

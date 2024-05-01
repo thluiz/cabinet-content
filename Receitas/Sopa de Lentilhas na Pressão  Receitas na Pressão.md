@@ -55,4 +55,3 @@ Pote bem fechado em geladeira por até 3 dias ou congelado por até 2 meses.
 
 **Dicas:** Você pode acrescentar outros legumes ao seu gosto e temperos como louro e ouras ervas.
 
-**É PROIBIDA a cópia e reprodução deste conteúdo em qualquer formato, seja texto, print, imagem, fotos ou impressos, e não é permitida a distribuição em outros canais, blogs, sites, grupos, impressos ou redes sociais. Conteúdo protegido por direitos autorais! Quer dividir ou enviar para alguém? Use os botões abaixo ou compartilhe apenas o link.**

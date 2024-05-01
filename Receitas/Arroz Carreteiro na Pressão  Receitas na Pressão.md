@@ -60,4 +60,6 @@ Assim que ficar pronto acrescente o cheiro-verde. Sirva como desejar, fica delic
 
 **<u>Dicas:</u>** Substitua a carne seca por carne de porco, a linguiça calabresa por paio e o tomate por cenoura, também fica ótimo.
 
-**É PROIBIDA a cópia e reprodução deste conteúdo em qualquer formato, seja texto, print, imagem, fotos ou impressos, e não é permitida a distribuição em outros canais, blogs, sites, grupos, impressos ou redes sociais. Conteúdo protegido por direitos autorais! Quer dividir ou enviar para alguém? Use os botões abaixo ou compartilhe apenas o link.**
+
+
+

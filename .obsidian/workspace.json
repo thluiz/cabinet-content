@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/2024/05/The Philosophy of Genie Wishes - Existential Comics.md",
+                "file": "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"**É PROIBIDA\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/2024/05/The Philosophy of Genie Wishes - Existential Comics.md",
+                "file": "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/2024/05/The Philosophy of Genie Wishes - Existential Comics.md",
+                "file": "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/2024/05/The Philosophy of Genie Wishes - Existential Comics.md"
+                "file": "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md"
               }
             }
           }
@@ -173,9 +174,15 @@
   },
   "active": "94e3011d1190ac90",
   "lastOpenFiles": [
+    "Receitas/Sopa Creme de Legumes na Pressão  Receitas na Pressão.md",
+    "Receitas/Maminha Assada Especial Express na Pressão  Receitas na Pressão.md",
+    "Receitas/Macarronada Express na Pressão  Receitas na Pressão.md",
+    "Receitas/Arroz Carreteiro na Pressão  Receitas na Pressão.md",
+    "Receitas/Caldo Verde na Pressão  Receitas na Pressão.md",
+    "Receitas/10 receitas de uma panela só para apaixonados por macarrão.md",
+    "Inbox/2024/05/The Philosophy of Genie Wishes - Existential Comics.md",
     "Inbox/2024/05/Pasted image 20240501174109.png",
     "Inbox/2024/01/_index.md",
-    "Inbox/2024/05/The Philosophy of Genie Wishes - Existential Comics.md",
     "Inbox/2024/05/_index.md",
     "Inbox/2024/05/What is CICD Pipelines A Crucial Skill for Every Software Engineer🔥 - DEV Community.md",
     "Inbox/2024/05/Is the party over for Scrum Masters and Agile Coaches  by Hrishikesh Karekar  Apr, 2024  Medium.md",
@@ -195,13 +202,8 @@
     "Inbox/2024/04/Customizing Authorization Responses in .NET 5.0 - Ben Foster.md",
     "Receitas/Rocambole Assado de Lentilha e Quinoa - Presunto Vegetariano.md",
     "Receitas/Salpicão Vegano - Presunto Vegetariano.md",
-    "Receitas/Sopa Creme de Legumes na Pressão  Receitas na Pressão.md",
     "Receitas/_index.md",
-    "Inbox/2024/03/Eric Evans Encourages DDD Practitioners to Experiment with LLMs - InfoQ.md",
-    "Inbox/2024/03/Is it moral to lock writing behind paywalls - by Erik Hoel.md",
     "Inbox/2024/03/desktop.ini",
-    "Inbox/2024/03/The Dark Forest hypothesis is absurd - by Noah Smith.md",
-    "Inbox/2024/04/How GitHub monopolized code hosting.md",
     "Inbox/2024/04/desktop.ini",
     "Inbox/2023",
     "Inbox/New folder",

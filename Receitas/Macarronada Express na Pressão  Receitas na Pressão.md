@@ -59,4 +59,3 @@ Assim que estiver pronta a retire a pressão da panela, abra e sirva. Garanto qu
 
 Eu gosto de utilizar macarrão integral pois no final a massa fica al dente, mas dá certo com qualquer tipo de macarrão, e os sabores ficam ao seu critério, basta usar a criatividade.
 
-**É PROIBIDA a cópia e reprodução deste conteúdo em qualquer formato, seja texto, print, imagem, fotos ou impressos, e não é permitida a distribuição em outros canais, blogs, sites, grupos, impressos ou redes sociais. Conteúdo protegido por direitos autorais! Quer dividir ou enviar para alguém? Use os botões abaixo ou compartilhe apenas o link.**
