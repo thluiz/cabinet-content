@@ -1,5 +1,5 @@
 ---
-created: 2024-05-01T09:09:12 (UTC -03:00)
+created: 2024-05-01T09:36:51 (UTC -03:00)
 tags: []
 source: https://hrishikeshkarekar.medium.com/is-the-party-over-for-scrum-masters-and-agile-coaches-fad29844804e
 author: Hrishikesh Karekar
