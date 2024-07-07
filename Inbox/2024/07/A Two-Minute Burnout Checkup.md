@@ -2,9 +2,7 @@
 created: 2024-07-07T12:52:24 (UTC -03:00)
 tags: []
 source: https://hbr.org/2023/04/a-two-minute-burnout-checkup
-author: by 
-
-Chris Bailey
+author: by Chris Bailey
 ---
 
 # A Two-Minute Burnout Checkup
