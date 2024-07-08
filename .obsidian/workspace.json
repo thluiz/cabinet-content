@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "390c678fd9899df5",
+        "id": "90d8cb72fae65476",
         "type": "tabs",
         "children": [
           {
-            "id": "c91d690b84d05f9b",
+            "id": "221138f879d3c4c6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94e3011d1190ac90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5f43cd5077c4b65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Receitas/Receita de Sorvete vegano de maracujá, enviada por luiza hirsch - TudoGostoso.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"**É PROIBIDA\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -172,8 +138,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94e3011d1190ac90",
+  "active": "221138f879d3c4c6",
   "lastOpenFiles": [
+    "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md",
+    "Receitas/Salmão com limão e aspargos verdes.md",
+    "Receitas/Frango com legumes de verão.md",
+    "Receitas/Filé de frango com legumes coloridos.md",
+    "Receitas/A porção extra de legumes.md",
+    "Receitas/attachments/Pasted image 20240708200745.png",
+    "Receitas/attachments/Pasted image 20240708200718.png",
+    "Receitas/attachments",
+    "Receitas/Pasted image 20240708200518.png",
+    "Receitas/Pasted image 20240708200442.png",
     "Receitas/Sopa Creme de Legumes na Pressão  Receitas na Pressão.md",
     "Receitas/Maminha Assada Especial Express na Pressão  Receitas na Pressão.md",
     "Receitas/Macarronada Express na Pressão  Receitas na Pressão.md",
@@ -197,19 +173,12 @@
     "Inbox/2023/Learning the Art of Micro Talk.md",
     "Receitas/Receita de Sorvete vegano de maracujá, enviada por luiza hirsch - TudoGostoso.md",
     "Inbox/2024/04/c - ASP.NET Core middleware vs filters - Stack Overflow.md",
-    "Inbox/2024/04/Atomic Nucleus Excited with Laser A Breakthrough after Decades  TU Wien.md",
-    "Inbox/2024/04/How an empty S3 bucket can make your AWS bill explode  by Maciej Pocwierz  Apr, 2024  Medium.md",
-    "Inbox/2024/04/Customizing Authorization Responses in .NET 5.0 - Ben Foster.md",
-    "Receitas/Rocambole Assado de Lentilha e Quinoa - Presunto Vegetariano.md",
-    "Receitas/Salpicão Vegano - Presunto Vegetariano.md",
-    "Receitas/_index.md",
     "Inbox/2024/03/desktop.ini",
     "Inbox/2024/04/desktop.ini",
     "Inbox/2023",
     "Inbox/New folder",
     "Inbox/2024/01",
     "Receitas",
-    "New folder",
-    "Inbox/2024/02"
+    "New folder"
   ]
 }

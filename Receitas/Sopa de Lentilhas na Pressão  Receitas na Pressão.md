@@ -1,6 +1,15 @@
 ---
 created: 2023-09-22T21:37:44 (UTC -03:00)
-tags: [Receitas,Panela de Pressão,Pressão,Cozidos,Salgados,Doces,Blog,Fácil,Rápido]
+tags:
+  - Receitas
+  - Panela
+  - Pressão
+  - Cozidos
+  - Salgados
+  - Doces
+  - Blog
+  - Fácil
+  - Rápido
 source: https://www.receitasnapressao.com.br/2018/04/sopa-de-lentilhas-na-pressao.html
 author: Maurício Rodrigues
 ---
