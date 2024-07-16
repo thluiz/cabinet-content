@@ -3,14 +3,13 @@ created: 2024-07-08T16:46:40 (UTC -03:00)
 tags: []
 source: https://www.science.org/content/article/ultimate-blood-substitute-us-military-betting-46-million?utm_source=tldrnewsletter
 author: Andrew Zaleski
-
-
-
-
-
-
-Andrew Zaleski is a journalist near Washington, D.C.
 ---
+
+
+
+
+
+_Andrew Zaleski is a journalist near Washington, D.C._
 
 # The ultimate blood substitute? The U.S. military is betting $46 million on it | Science | AAAS
 
