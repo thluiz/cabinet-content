@@ -2,7 +2,7 @@
 created: 2024-07-11T12:01:08 (UTC -03:00)
 tags: []
 source: https://fredhohman.com/card-shuffling/
-author: By: Fred Hohman
+author: Fred Hohman
 ---
 
 # The Math of Card Shuffling
