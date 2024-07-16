@@ -2,10 +2,7 @@
 created: 2024-07-15T14:22:42 (UTC -03:00)
 tags: []
 source: https://www.infoworld.com/article/2514270/how-to-use-refit-to-consume-apis-in-asp-net-core.html
-author: byJoydip Kanjilal
-
-
-Contributor
+author: Joydip Kanjilal
 ---
 
 # How to use Refit to consume APIs in ASP.NET Core | InfoWorld
