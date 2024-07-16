@@ -11,8 +11,12 @@
             "id": "221138f879d3c4c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/2024/07/Microservices rules what good looks like - July 2024 edition.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Inbox/2024/07/Microservices rules what good looks like - July 2024 edition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Inbox/2024/07/Microservices rules what good looks like - July 2024 edition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Inbox/2024/07/Microservices rules what good looks like - July 2024 edition.md"
+              }
             }
           }
         ]
@@ -140,6 +148,10 @@
   },
   "active": "221138f879d3c4c6",
   "lastOpenFiles": [
+    "Inbox/2024/07/MonkeyUser - Focus X do you have 1 sec.md",
+    "Inbox/2024/07/Microservices rules what good looks like - July 2024 edition.md",
+    "Inbox/2024/07/attachments/Pasted image 20240715223550.png",
+    "Inbox/2024/07/attachments",
     "Receitas/Sopa de Lentilhas na Pressão  Receitas na Pressão.md",
     "Receitas/Salmão com limão e aspargos verdes.md",
     "Receitas/Frango com legumes de verão.md",
@@ -172,13 +184,11 @@
     "Inbox/2024/04/Is the party over for Scrum Masters and Agile Coaches  by Hrishikesh Karekar  Apr, 2024  Medium.md",
     "Inbox/2023/Learning the Art of Micro Talk.md",
     "Receitas/Receita de Sorvete vegano de maracujá, enviada por luiza hirsch - TudoGostoso.md",
-    "Inbox/2024/04/c - ASP.NET Core middleware vs filters - Stack Overflow.md",
     "Inbox/2024/03/desktop.ini",
     "Inbox/2024/04/desktop.ini",
     "Inbox/2023",
     "Inbox/New folder",
     "Inbox/2024/01",
-    "Receitas",
-    "New folder"
+    "Receitas"
   ]
 }
