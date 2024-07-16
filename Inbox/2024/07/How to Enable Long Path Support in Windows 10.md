@@ -2,7 +2,7 @@
 created: 2024-04-22T23:11:56 (UTC -03:00)
 tags: []
 source: https://www.msftnext.com/how-to-enable-ntfs-long-paths-in-windows-10/
-author: Author:
+author: MSFTNEXT project
 ---
 
 # How to Enable Long Path Support in Windows 10
