@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Citações/_index.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Citações/_index.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Citações/_index.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Citações/_index.md"
+                "file": "_index.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "221138f879d3c4c6",
   "lastOpenFiles": [
-    "Citações/Fast is fine; accuracy is final. You got to be slow in a hurry..md",
+    "Inbox/2023/_index.md",
     "Citações/_index.md",
+    "Citações/Fast is fine; accuracy is final. You got to be slow in a hurry..md",
     "Inbox/2024/07/(14) Post  LinkedIn - Akita sobre a fala da Febraban.md",
     "Inbox/2024/07/(59) The software engineering industry in 2024 what changed in 2 years, why, and what is next - YouTube.md",
     "Inbox/2024/07/» Starcraft (A History in Two Acts) The Digital Antiquarian.md",
@@ -183,7 +184,6 @@
     "Inbox/2024/05/Pasted image 20240501174109.png",
     "Inbox/2024/01/_index.md",
     "Inbox/2024/05/_index.md",
-    "Inbox/2024/05/What is CICD Pipelines A Crucial Skill for Every Software Engineer🔥 - DEV Community.md",
     "Inbox/2024/05",
     "Inbox/2024/New folder",
     "Inbox/2024/03/desktop.ini",
