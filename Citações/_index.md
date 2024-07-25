@@ -1,5 +1,5 @@
 ---
-title: Receitas
+title: Citações
 bookCollapseSection: true
 bookToc: false
 ---
