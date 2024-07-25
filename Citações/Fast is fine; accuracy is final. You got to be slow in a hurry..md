@@ -1,0 +1,1 @@
+-  Wyatt Earp on gunfights

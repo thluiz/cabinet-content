@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Receitas/Cassoulet de inverno.md",
+                "file": "Citações/Fast is fine; accuracy is final. You got to be slow in a hurry..md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Receitas/Cassoulet de inverno.md",
+                "file": "Citações/Fast is fine; accuracy is final. You got to be slow in a hurry..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Receitas/Cassoulet de inverno.md",
+                "file": "Citações/Fast is fine; accuracy is final. You got to be slow in a hurry..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Receitas/Cassoulet de inverno.md"
+                "file": "Citações/Fast is fine; accuracy is final. You got to be slow in a hurry..md"
               }
             }
           }
@@ -148,9 +148,14 @@
   },
   "active": "221138f879d3c4c6",
   "lastOpenFiles": [
+    "Citações/_index.md",
+    "Citações/Fast is fine; accuracy is final. You got to be slow in a hurry..md",
+    "Receitas/_index.md",
+    "_index.md",
+    "Receitas/Cassoulet de inverno.md",
+    "Citações",
     "Receitas/attachments/Pasted image 20240717131702.png",
     "Inbox/2024/07/Microservices rules what good looks like - July 2024 edition.md",
-    "Receitas/Cassoulet de inverno.md",
     "Inbox/2024/07/MonkeyUser - Focus X do you have 1 sec.md",
     "Inbox/2024/07/attachments/Pasted image 20240715223550.png",
     "Inbox/2024/07/attachments",
@@ -181,14 +186,10 @@
     "Inbox/2024/05",
     "Inbox/2024/New folder",
     "Inbox/2024/04/Explorando o Poder do Property Pattern em C Simplificando a Correspondência de Padrões  by Sidney Junior  Apr, 2024  Medium.md",
-    "Inbox/2024/04/Go program pattern 02 Implementing Class Inheritance and Method Overriding through Composition - DEV Community.md",
-    "Inbox/2024/04/What is CICD Pipelines A Crucial Skill for Every Software Engineer🔥 - DEV Community.md",
-    "Inbox/2024/04/Is the party over for Scrum Masters and Agile Coaches  by Hrishikesh Karekar  Apr, 2024  Medium.md",
     "Inbox/2024/03/desktop.ini",
     "Inbox/2024/04/desktop.ini",
     "Inbox/2023",
     "Inbox/New folder",
-    "Inbox/2024/01",
-    "Receitas"
+    "Inbox/2024/01"
   ]
 }
