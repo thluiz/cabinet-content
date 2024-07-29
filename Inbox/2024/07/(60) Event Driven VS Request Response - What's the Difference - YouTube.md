@@ -2,7 +2,7 @@
 created: 2024-07-25T15:30:02 (UTC -03:00)
 tags: [aws,aws simplified,awssimplified,programming,coding,cloud computing,software design,software engineer,software developer,software architecture,beabetterdev,be a better dev,be a better developer,system design,databases]
 source: https://www.youtube.com/watch?v=gNJb6WSyzP4
-author: @Muaddibkhan
+author: Muaddibkhan
 ---
 
 # (60) Event Driven VS Request Response - What's the Difference? - YouTube
