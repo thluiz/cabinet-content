@@ -1,6 +1,6 @@
 ---
 title: 2024-08
-bookCollapseSection: false
+bookCollapseSection: true
 bookToc: true
 ---
 
