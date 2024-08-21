@@ -1,5 +1,5 @@
 ---
-created: 2024-08-21T15:18:13 (UTC -03:00)
+created: 2024-08-21T17:48:03 (UTC -03:00)
 tags: [architecture,microservices,learning,software,coding,development,engineering,inclusive,community]
 source: https://dev.to/dragosbln/sketching-out-the-extremes-an-approach-to-designing-software-architectures-in-highly-unpredictable-projects-1hd5
 author: 
