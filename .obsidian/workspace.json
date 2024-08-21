@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/2024/07/(60) Event Driven VS Request Response - What's the Difference - YouTube.md",
+                "file": "Inbox/2024/08/(63) Stop using new tech (seriously) - YouTube.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/2024/07/(60) Event Driven VS Request Response - What's the Difference - YouTube.md",
+                "file": "Inbox/2024/08/(63) Stop using new tech (seriously) - YouTube.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/2024/07/(60) Event Driven VS Request Response - What's the Difference - YouTube.md",
+                "file": "Inbox/2024/08/(63) Stop using new tech (seriously) - YouTube.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/2024/07/(60) Event Driven VS Request Response - What's the Difference - YouTube.md"
+                "file": "Inbox/2024/08/(63) Stop using new tech (seriously) - YouTube.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "221138f879d3c4c6",
   "lastOpenFiles": [
+    "Inbox/2024/07/(60) Event Driven VS Request Response - What's the Difference - YouTube.md",
     "Inbox/2024/03/design - What's the difference between Observer pattern and listeners - Software Engineering Stack Exchange.md",
     "_index.md",
     "Inbox/2023/_index.md",
@@ -183,7 +184,6 @@
     "Receitas/10 receitas de uma panela só para apaixonados por macarrão.md",
     "Inbox/2024/05/The Philosophy of Genie Wishes - Existential Comics.md",
     "Inbox/2024/05/Pasted image 20240501174109.png",
-    "Inbox/2024/01/_index.md",
     "Inbox/2024/05",
     "Inbox/2024/New folder",
     "Inbox/2024/03/desktop.ini",
