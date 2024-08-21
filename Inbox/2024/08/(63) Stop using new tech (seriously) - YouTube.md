@@ -2,7 +2,7 @@
 created: 2024-08-21T17:41:18 (UTC -03:00)
 tags: [web development,full stack,typescript,javascript,react,programming,programmer,theo,t3 stack,t3,t3.gg,t3dotgg]
 source: https://www.youtube.com/watch?v=PqUjzXiDQ2A
-author: @SilasonLinux
+author: SilasonLinux
 ---
 
 # (63) Stop using new tech (seriously) - YouTube
