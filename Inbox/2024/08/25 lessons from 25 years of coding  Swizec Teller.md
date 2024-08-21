@@ -1,5 +1,5 @@
 ---
-created: 2024-08-20T16:47:11 (UTC -03:00)
+created: 2024-08-21T14:16:33 (UTC -03:00)
 tags: []
 source: https://swizec.com/blog/25-lessons-from-25-years-of-coding/
 author: 

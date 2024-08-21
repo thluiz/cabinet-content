@@ -1,5 +1,5 @@
 ---
-created: 2024-08-20T17:24:31 (UTC -03:00)
+created: 2024-08-21T14:43:33 (UTC -03:00)
 tags: []
 source: https://blog.mihaioltean.com/the-hollywood-principle
 author: Mihai Oltean
