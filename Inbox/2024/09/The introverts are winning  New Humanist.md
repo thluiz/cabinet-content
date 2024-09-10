@@ -2,19 +2,8 @@
 created: 2024-08-11T22:51:54 (UTC -03:00)
 tags: []
 source: https://newhumanist.org.uk/articles/6306/the-introverts-are-winning?ref=dailydev
-author: –   By
+author: Marie Le Conte
 
-
-Marie Le Conte
-
-
-  –
-
-Thursday, 
-25th 
-
-July 
-2024
 ---
 
 # The introverts are winning | New Humanist
