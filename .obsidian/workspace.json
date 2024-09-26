@@ -11,8 +11,12 @@
             "id": "3386ad1fe8faf59b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/2024/09/Colours that go with purple to create a harmonious living space.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Inbox/2024/09/Colours that go with purple to create a harmonious living space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Inbox/2024/09/Colours that go with purple to create a harmonious living space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Inbox/2024/09/Colours that go with purple to create a harmonious living space.md"
+              }
             }
           }
         ]
@@ -140,6 +148,14 @@
   },
   "active": "3386ad1fe8faf59b",
   "lastOpenFiles": [
+    "Inbox/2024/09/attachments/Pasted image 20240926114931.png",
+    "Inbox/2024/09/attachments/Pasted image 20240926114919.png",
+    "Inbox/2024/09/attachments/Pasted image 20240926114907.png",
+    "Inbox/2024/09/attachments/Pasted image 20240926114856.png",
+    "Inbox/2024/09/attachments/Pasted image 20240926114844.png",
+    "Inbox/2024/09/attachments/Pasted image 20240926114831.png",
+    "Inbox/2024/09/attachments/Pasted image 20240926114804.png",
+    "Inbox/2024/09/attachments",
     "Receitas/Linguiça com legumes ao forno aproveite como prato principal.md",
     "Receitas/Caldo Verde na Pressão  Receitas na Pressão.md",
     "Inbox/2024/09/What a 160-year-old theory about coal predicts about our self-driving future - The Verge.md",
@@ -165,7 +181,6 @@
     "Inbox/2024/03/design - What's the difference between Observer pattern and listeners - Software Engineering Stack Exchange.md",
     "_index.md",
     "Inbox/2023/_index.md",
-    "Citações/_index.md",
     "Citações",
     "Receitas/attachments/Pasted image 20240717131702.png",
     "Inbox/2024/07/attachments/Pasted image 20240715223550.png",
@@ -173,15 +188,11 @@
     "Receitas/attachments/Pasted image 20240708200745.png",
     "Receitas/attachments/Pasted image 20240708200718.png",
     "Receitas/attachments",
-    "Receitas/Pasted image 20240708200518.png",
-    "Receitas/Pasted image 20240708200442.png",
-    "Inbox/2024/05/Pasted image 20240501174109.png",
     "Inbox/2024/05",
     "Inbox/2024/New folder",
     "Inbox/2024/03/desktop.ini",
     "Inbox/2024/04/desktop.ini",
     "Inbox/2023",
-    "Inbox/New folder",
-    "Inbox/2024/01"
+    "Inbox/New folder"
   ]
 }
