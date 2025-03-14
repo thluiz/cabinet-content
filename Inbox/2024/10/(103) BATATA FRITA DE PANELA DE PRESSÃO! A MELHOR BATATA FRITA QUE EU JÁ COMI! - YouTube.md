@@ -2,7 +2,7 @@
 created: 2024-10-21T10:57:31 (UTC -03:00)
 tags: [vídeo,compartilhamento,celular com câmera,videofone,gratuito,envio]
 source: https://www.youtube.com/watch?v=nTd1OxmfOpw
-author: @sandrarenata7774
+author: sandrarenata7774
 ---
 
 # (103) BATATA FRITA DE PANELA DE PRESSÃO! A MELHOR BATATA FRITA QUE EU JÁ COMI! - YouTube
