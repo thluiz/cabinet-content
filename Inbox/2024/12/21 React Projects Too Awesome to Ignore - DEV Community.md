@@ -535,11 +535,11 @@ You can use 45+ customizable widgets to create beautiful responsive UI in minute
 
 [![validations](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F489fly7tvknz2uv2mgei.png)](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F489fly7tvknz2uv2mgei.png)
 
-Appsmith enables writing JavaScript code almost everywhere on the GUI inside widget properties, events listeners, queries, and other settings. Appsmith supports writing single-line code within `{{ }}` and interprets anything written between the brackets as a JavaScript expression.  
+Appsmith enables writing JavaScript code almost everywhere on the GUI inside widget properties, events listeners, queries, and other settings. Appsmith supports writing single-line code within `[[ ]]` and interprets anything written between the brackets as a JavaScript expression.  
 
 ```
 <span>/*Filter the data array received from a query*/</span>
-<span>{</span> <span>QueryName</span><span>.</span><span>data</span><span>.</span><span>filter</span><span>((</span><span>row</span><span>)</span> <span>=&gt;</span> <span>row</span><span>.</span><span>id</span> <span>&gt;</span> <span>5</span> <span>)</span> <span>}</span>
+<span>[</span> <span>QueryName</span><span>.</span><span>data</span><span>.</span><span>filter</span><span>((</span><span>row</span><span>)</span> <span>=&gt;</span> <span>row</span><span>.</span><span>id</span> <span>&gt;</span> <span>5</span> <span>)</span> <span>}</span>
 
 <span>or</span> 
 
