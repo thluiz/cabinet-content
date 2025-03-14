@@ -539,6 +539,9 @@ Appsmith enables writing JavaScript code almost everywhere on the GUI inside wid
 
 ```
 <span>/*Filter the data array received from a query*/</span>
+
+test
+
 <span>&#123;&#123;</span> <span>QueryName</span><span>.</span><span>data</span><span>.</span><span>filter</span><span>((</span><span>row</span><span>)</span> <span>=&gt;</span> <span>row</span><span>.</span><span>id</span> <span>&gt;</span> <span>5</span> <span>)</span> <span>&#124;</span>
 
 <span>or</span> 
