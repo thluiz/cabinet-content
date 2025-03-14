@@ -584,7 +584,7 @@ For instance, the invalid and valid code.
 
 <span>/* Verify the selected option and return the value*/</span>
 
-<span>{{</span> 
+<span>&#123;&#123;</span> 
   <span>(</span><span>function</span><span>()</span> <span>{</span>
       <span>if </span><span>(</span><span>Dropdown</span><span>.</span><span>selectedOptionValue</span> <span>===</span> <span>"</span><span>1</span><span>"</span><span>)</span> <span>{</span>
         <span>return</span> <span>"</span><span>Option 1</span><span>"</span><span>;</span>
@@ -592,7 +592,7 @@ For instance, the invalid and valid code.
         <span>return</span> <span>"</span><span>Option 2</span><span>"</span><span>;</span>
       <span>}</span>
    <span>})()</span>
-<span>}}</span>
+<span>&#124;&#124;</span>
 ```
 
 You can create anything from simple CRUD apps to complicated multi-step workflows with a few simple steps:
