@@ -557,30 +557,30 @@ For instance, the invalid and valid code.
 ```
 <span>// invalid code</span>
 <span>/*Call a query to fetch the results and filter the data*/</span>
-<span>{{</span> 
+<span>&#123;&#123;</span> 
    <span>const</span> <span>array</span> <span>=</span> <span>QueryName</span><span>.</span><span>data</span><span>;</span>
    <span>const</span> <span>filterArray</span> <span>=</span> <span>array</span><span>.</span><span>filter</span><span>((</span><span>row</span><span>)</span> <span>=&gt;</span> <span>row</span><span>.</span><span>id</span> <span>&gt;</span> <span>5</span><span>);</span>
    <span>return</span> <span>filterArray</span><span>;</span>
-<span>}}</span>
+<span>&#124;&#124;</span>
 
 <span>/* Check the selected option and return the value*/</span>
-<span>{{</span> 
+<span>&#123;&#123;</span> 
   <span>if </span><span>(</span><span>Dropdown</span><span>.</span><span>selectedOptionValue</span> <span>===</span> <span>"</span><span>1</span><span>"</span><span>)</span> <span>{</span>
       <span>return</span> <span>"</span><span>Option 1</span><span>"</span><span>;</span>
   <span>}</span> <span>else</span> <span>{</span>
       <span>return</span> <span>"</span><span>Option 2</span><span>"</span><span>;</span>
   <span>}</span>
-<span>}}</span>
+<span>&#124;&#124;</span>
 
 <span>// valid code</span>
 <span>/* Call a query and then manipulate its result */</span>
-<span>{{</span> 
+<span>&#123;&#123;</span> 
   <span>(</span><span>function</span><span>()</span> <span>{</span>
       <span>const</span> <span>array</span> <span>=</span> <span>QueryName</span><span>.</span><span>data</span><span>;</span>
       <span>const</span> <span>filterArray</span> <span>=</span> <span>array</span><span>.</span><span>filter</span><span>((</span><span>row</span><span>)</span> <span>=&gt;</span> <span>row</span><span>.</span><span>id</span> <span>&gt;</span> <span>5</span><span>);</span>
       <span>return</span> <span>filterArray</span><span>;</span>
    <span>})()</span>
-<span>}}</span>
+<span>&#124;&#124;</span>
 
 <span>/* Verify the selected option and return the value*/</span>
 
