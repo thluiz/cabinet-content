@@ -50,7 +50,7 @@ Here, `//go:generate` runs the `protoc` command to compile Protocol Buffers defi
 One more thing about generators: I found this cool [article](https://www.jvt.me/posts/2022/06/15/go-tools-dependency-management/) that discusses how to manage your tool versions. We receive an error if we don’t pre-install the stringer command, for example. One approach is to have a Makefile task that parses the tools.go file and installs those dependencies.
 
 ```
-<span id="0070" data-selectable-paragraph=""><br>GO_BIN := <span>$(<span>shell</span> which go)</span><br><br><br><span>install-tools:</span><br> @echo <span>"Parsing tools.go and installing dependencies..."</span><br> @go list -f '{{range .Imports}}{{.}} {{end}}' tools.go | xargs -t -n 1 <span>$(GO_BIN)</span> install<br> @echo <span>"All tools have been installed."</span><br><br><span><span>.PHONY</span>: install-tools</span></span>
+<span id="0070" data-selectable-paragraph=""><br>GO_BIN := <span>$(<span>shell</span> which go)</span><br><br><br><span>install-tools:</span><br> @echo <span>"Parsing tools.go and installing dependencies..."</span><br> @go list -f '&#123;&#123;range .Imports&#124;&#124;&#123;&#123;.&#124;&#124; &#123;&#123;end&#124;&#124;' tools.go | xargs -t -n 1 <span>$(GO_BIN)</span> install<br> @echo <span>"All tools have been installed."</span><br><br><span><span>.PHONY</span>: install-tools</span></span>
 ```
 
 Alternatively, because we’ve already pinned the dependencies and their versions in our go.mod file, we can achieve this through the declaration in the `tools.go` file.

@@ -51,11 +51,11 @@ Here the left hand side denotes the [conditional expectation](https://en.wikiped
 
 This is equivalent to the [survival function](https://en.wikipedia.org/wiki/Survival_function "Survival function") of T being
 
-![{\displaystyle \Phi (t):={\text{Pr}}(T>t)=\left({\frac {c}{t}}\right)^{\epsilon }{\text{ , where }}\epsilon =1+{\frac {1}{p}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/7d4f5dba5da106656efb3bac0fb02de7c5e4cd05)
+![{\displaystyle \Phi (t):={\text{Pr&#124;&#124;(T>t)=\left({\frac {c}{t&#124;&#124;\right)^{\epsilon }{\text{ , where &#124;&#124;\epsilon =1+{\frac {1}{p&#124;&#124;}](https://wikimedia.org/api/rest_v1/media/math/render/svg/7d4f5dba5da106656efb3bac0fb02de7c5e4cd05)
 
 which has the [hazard function](https://en.wikipedia.org/wiki/Hazard_function "Hazard function")
 
-![{\displaystyle -{\frac {\Phi '(t)}{\Phi (t)}}={\frac {\epsilon }{t}}={\frac {1+p}{p}}{\frac {1}{t}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/c1f9dd580d473e6e5bbd82581a83e628e2c159e7)
+![{\displaystyle -{\frac {\Phi '(t)}{\Phi (t)&#124;&#124;={\frac {\epsilon }{t&#124;&#124;={\frac {1+p}{p&#124;&#124;{\frac {1}{t&#124;&#124;}](https://wikimedia.org/api/rest_v1/media/math/render/svg/c1f9dd580d473e6e5bbd82581a83e628e2c159e7)
 
 This means that the lifetime ![{\displaystyle T}](https://wikimedia.org/api/rest_v1/media/math/render/svg/ec7200acd984a1d3a3d7dc455e262fbe54f7f6e0) follows a [Pareto distribution](https://en.wikipedia.org/wiki/Pareto_distribution "Pareto distribution") (a power-law distribution) with exponent ![{\displaystyle \epsilon }](https://wikimedia.org/api/rest_v1/media/math/render/svg/c3837cad72483d97bcdde49c85d3b7b859fb3fd2).<sup id="cite_ref-14"><a href="https://en.wikipedia.org/wiki/Lindy_effect#cite_note-14"><span>[</span>14<span>]</span></a></sup><sup>[<i><a href="https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Self-published_sources" title="Wikipedia:Verifiability"><span title="The material near this tag may rely on a self-published source. (March 2021)">self-published source?</span></a></i>]</sup><sup id="cite_ref-15"><a href="https://en.wikipedia.org/wiki/Lindy_effect#cite_note-15"><span>[</span>15<span>]</span></a></sup><sup>[<i><a href="https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Self-published_sources" title="Wikipedia:Verifiability"><span title="The material near this tag may rely on a self-published source. (March 2021)">self-published source?</span></a></i>]</sup><sup id="cite_ref-Eliazar2017_1-4"><a href="https://en.wikipedia.org/wiki/Lindy_effect#cite_note-Eliazar2017-1"><span>[</span>1<span>]</span></a></sup>
 

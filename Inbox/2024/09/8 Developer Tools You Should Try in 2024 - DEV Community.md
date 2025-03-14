@@ -308,7 +308,7 @@ As a GitHub Technology Partner, Replexica provides easy integrations with GitHub
 ```
 <span>-</span> <span>uses</span><span>:</span> <span>replexica/replexica@latest</span>
   <span>with</span><span>:</span>
-    <span>api-key</span><span>:</span> <span>${{ secrets.REPLEXICA_API_KEY }}</span>
+    <span>api-key</span><span>:</span> <span>$&#123;&#123; secrets.REPLEXICA_API_KEY &#124;&#124;</span>
 ```
 
 [Replexica](https://replexica.com/) is built on enterprise-grade infrastructure, leveraging Cloudflare for global distribution and reliability. This means you get fast, secure, and scalable localization, no matter where your users are.

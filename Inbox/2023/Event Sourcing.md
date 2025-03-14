@@ -258,8 +258,8 @@ class DepartureEvent...
 ```
   Port _port;
   Ship _ship;
-  internal Port Port  {get { return _port; }}
-  internal Ship Ship  {get { return _ship; }}
+  internal Port Port  {get { return _port; &#124;&#124;
+  internal Ship Ship  {get { return _ship; &#124;&#124;
   internal DepartureEvent(DateTime time, Port port, Ship ship) : base (time)  {
     this._port = port;
     this._ship = ship;
@@ -314,8 +314,8 @@ class ArrivalEvent...
     this._port = port;
     this._ship = ship;
   } 
-  internal Port Port {get {return _port;}}
-  internal Ship Ship {get{return _ship;}}
+  internal Port Port {get {return _port;&#124;&#124;
+  internal Ship Ship {get{return _ship;&#124;&#124;
   
   internal override void Process() {
     Ship.HandleArrival(this);
@@ -417,8 +417,8 @@ class LoadEvent...
     this._shipCode = ship;
     this._cargoCode = cargo;
   }
-  internal Ship Ship {get { return Ship.Find(_shipCode); }}
-  internal Cargo Cargo {get { return Cargo.Find(_cargoCode); }}
+  internal Ship Ship {get { return Ship.Find(_shipCode); &#124;&#124;
+  internal Cargo Cargo {get { return Cargo.Find(_cargoCode); &#124;&#124;
 
 ```
 
@@ -483,7 +483,7 @@ class Cargo...
       _hasBeenInCanada = true;
   }
   private bool _hasBeenInCanada = false;
-  public bool HasBeenInCanada {get { return _hasBeenInCanada;}}
+  public bool HasBeenInCanada {get { return _hasBeenInCanada;&#124;&#124;
 
 ```
 

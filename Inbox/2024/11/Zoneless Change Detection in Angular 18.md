@@ -84,7 +84,7 @@ In the code below, we update the `PageNumber` to 2 using the [ngOnInit](https://
 <span><span>  standalone: </span><span>true</span><span>,</span></span>
 <span><span>  imports: [RouterOutlet, CommonModule],</span></span>
 <span><span>  template: </span><span>`</span></span>
-<span><span> &lt;div&gt;Page Number: {{ PageNumber }}&lt;/div&gt;</span></span>
+<span><span> &lt;div&gt;Page Number: &#123;&#123; PageNumber &#124;&#124;&lt;/div&gt;</span></span>
 <span><span> `</span><span>,</span></span>
 <span><span>})</span></span>
 <span><span>export</span><span> </span><span>class</span><span> </span><span>AppComponent</span><span> </span><span>implements</span><span> </span><span>OnInit</span><span> {</span></span>
@@ -110,7 +110,7 @@ To test this, let’s create a timer event using `setTimeout()` to update the `P
 ```
 <span><span>@</span><span>Component</span><span>({</span></span>
 <span><span>  template: </span><span>`</span></span>
-<span><span> &lt;div&gt;Page Number: {{ PageNumber }}&lt;/div&gt;</span></span>
+<span><span> &lt;div&gt;Page Number: &#123;&#123; PageNumber &#124;&#124;&lt;/div&gt;</span></span>
 <span><span> `</span><span>,</span></span>
 <span><span>})</span></span>
 <span><span>export</span><span> </span><span>class</span><span> </span><span>AppComponent</span><span> </span><span>implements</span><span> </span><span>OnInit</span><span> {</span></span>
@@ -161,7 +161,7 @@ To test this, let’s create a `signal` and initialize it with the value 5. Then
 ```
 <span><span>@</span><span>Component</span><span>({</span></span>
 <span><span>  template: </span><span>`</span></span>
-<span><span> &lt;div&gt;Signal: {{ signal() }}&lt;/div&gt;</span></span>
+<span><span> &lt;div&gt;Signal: &#123;&#123; signal() &#124;&#124;&lt;/div&gt;</span></span>
 <span><span> `</span><span>,</span></span>
 <span><span>})</span></span>
 <span><span>export</span><span> </span><span>class</span><span> </span><span>AppComponent</span><span> </span><span>implements</span><span> </span><span>OnInit</span><span> {</span></span>
@@ -189,7 +189,7 @@ Let’s create a property `eventChange` and set it to 0. In the template, we wil
 ```
 <span><span>@</span><span>Component</span><span>({</span></span>
 <span><span>  template: </span><span>`</span></span>
-<span><span> &lt;button (click)="eventChange = 200"&gt;Click here&lt;/button&gt; {{ eventChange }}</span></span>
+<span><span> &lt;button (click)="eventChange = 200"&gt;Click here&lt;/button&gt; &#123;&#123; eventChange &#124;&#124;</span></span>
 <span><span> `</span><span>,</span></span>
 <span><span>})</span></span>
 <span></span>
@@ -212,7 +212,7 @@ In the code below, we create an `Observable` `time$` that emits a value every se
 ```
 <span><span>@</span><span>Component</span><span>({</span></span>
 <span><span>  template: </span><span>`</span></span>
-<span><span> &lt;div&gt;Current Time: {{ time$ | async }}&lt;/div&gt;</span></span>
+<span><span> &lt;div&gt;Current Time: &#123;&#123; time$ | async &#124;&#124;&lt;/div&gt;</span></span>
 <span><span> `</span><span>,</span></span>
 <span><span>})</span></span>
 <span><span>export</span><span> </span><span>class</span><span> </span><span>AppComponent</span><span> {</span></span>

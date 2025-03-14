@@ -84,7 +84,7 @@ standing:: coming soon
 priority:: 0
 deadline:: 2023-01-01
 
-# {{title}}
+# &#123;&#123;title&#124;&#124;
 - [ ] Todos go here
 ```
 

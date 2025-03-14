@@ -147,10 +147,10 @@ This file will list all the blog posts.
     &lt;div&gt;
         {% for post in blogs %}
         &lt;div class="post"&gt;
-            &lt;h2&gt;{{ post.title }}&lt;/h2&gt;
-            &lt;p&gt;{{ post.content[:100] }}...&lt;/p&gt;
-            &lt;a href="/post/{{ loop.index0 }}"&gt;Read more&lt;/a&gt;
-            &lt;form method="post" action="/delete_post/{{ loop.index0 }}"&gt;
+            &lt;h2&gt;&#123;&#123; post.title &#124;&#124;&lt;/h2&gt;
+            &lt;p&gt;&#123;&#123; post.content[:100] &#124;&#124;...&lt;/p&gt;
+            &lt;a href="/post/&#123;&#123; loop.index0 &#124;&#124;"&gt;Read more&lt;/a&gt;
+            &lt;form method="post" action="/delete_post/&#123;&#123; loop.index0 &#124;&#124;"&gt;
                 &lt;button type="submit"&gt;Delete&lt;/button&gt;
             &lt;/form&gt;
         &lt;/div&gt;
@@ -170,12 +170,12 @@ This file will display the full content of a blog post.
 &lt;head&gt;
     &lt;meta charset="UTF-8"&gt;
     &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title&gt;{{ post.title }}&lt;/title&gt;
+    &lt;title&gt;&#123;&#123; post.title &#124;&#124;&lt;/title&gt;
     &lt;link rel="stylesheet" href="/static/style.css"&gt;
 &lt;/head&gt;
 &lt;body&gt;
-    &lt;h1&gt;{{ post.title }}&lt;/h1&gt;
-    &lt;p&gt;{{ post.content }}&lt;/p&gt;
+    &lt;h1&gt;&#123;&#123; post.title &#124;&#124;&lt;/h1&gt;
+    &lt;p&gt;&#123;&#123; post.content &#124;&#124;&lt;/p&gt;
     &lt;a href="/"&gt;Back to Home&lt;/a&gt;
 &lt;/body&gt;
 &lt;/html&gt;

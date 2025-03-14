@@ -92,7 +92,7 @@ The transformation of the code can begin with parent component code. Change the 
 You would observe rendering issues once you update `managerName` in the component file to use the signal. This is because, to read a signal value, it needs to be executed. Update the component HTML code to below to read the value of the signal properly.
 
 ```xml
-<!-- parent-component.html --> <h1 class="text-3xl font-bold mb-6">Hello {{managerName()}}!</h1>
+<!-- parent-component.html --> <h1 class="text-3xl font-bold mb-6">Hello &#123;&#123;managerName()&#124;&#124;!</h1>
 ```
 
 List of employees inside parent component is a simple array, transform it to signal as well.
@@ -128,7 +128,7 @@ Define the computed signal as shown in the code below, and ensure the computed d
 Update the HTML template of the parent component to reflect this change and show total hours value.
 
 ```xml
-<!-- parent-component.html --> <p class="text-lg font-medium text-gray-700">Regular Hours: <span class="font-bold"> {{teamRegularHoursTotal() }}</span></p>
+<!-- parent-component.html --> <p class="text-lg font-medium text-gray-700">Regular Hours: <span class="font-bold"> &#123;&#123;teamRegularHoursTotal() &#124;&#124;</span></p>
 ```
 
 Similarly, overtime hours can be transformed to a computed signal as well. Refer to the code below to update both the component code and its HTML template. Also, comment out or remove the `getTeamOvertimeHoursTotal` method completely.
@@ -138,7 +138,7 @@ Similarly, overtime hours can be transformed to a computed signal as well. Refer
 ```
 
 ```xml
-<!-- parent-component.html --> <p class="text-lg font-medium text-gray-700">Overtime Hours: <span class="font-bold"> {{teamOvertimeHoursTotal() }}</span></p>
+<!-- parent-component.html --> <p class="text-lg font-medium text-gray-700">Overtime Hours: <span class="font-bold"> &#123;&#123;teamOvertimeHoursTotal() &#124;&#124;</span></p>
 ```
 
 It is time to convert the `selectedEmployee` variable in the parent component to a signal. Transform it using the code below:

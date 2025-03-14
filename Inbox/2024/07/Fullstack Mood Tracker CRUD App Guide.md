@@ -575,7 +575,7 @@ Next, let's create the MoodList component. This component will display all moods
                   <span>onClick</span>=<span>{()</span> =&gt;</span> {
                     setEditingMoodId(mood.id);
                     setEditingMoodValue(mood.mood);
-                  }}
+                  &#124;&#124;
                 &gt;
                   Edit
                 <span>&lt;/<span>button</span>&gt;</span>

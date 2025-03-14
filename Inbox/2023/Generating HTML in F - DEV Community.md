@@ -268,13 +268,13 @@ If you like me can't simply just leave HTML because of _reasons_ there are also 
     <span>let</span> <span>html</span> <span>=</span> 
         <span>"""
         &lt;ul id='products'&gt;
-        {{ for product in products }}
+        &#123;&#123; for product in products &#124;&#124;
           &lt;li&gt;
-            &lt;h2&gt;{{ product.name }}&lt;/h2&gt;
-                 Price: {{ product.price }}
-                 {{ product.description | string.truncate 15 }}
+            &lt;h2&gt;&#123;&#123; product.name &#124;&#124;&lt;/h2&gt;
+                 Price: &#123;&#123; product.price &#124;&#124;
+                 &#123;&#123; product.description | string.truncate 15 &#124;&#124;
           &lt;/li&gt;
-        {{ end }}
+        &#123;&#123; end &#124;&#124;
         &lt;/ul&gt;
         """</span>
     <span>let</span> <span>result</span> <span>=</span> <span>Template</span><span>.</span><span>Parse</span><span>(</span><span>html</span><span>)</span>
@@ -314,26 +314,26 @@ If you want to compose components in the scriban templates the approach is way w
 <span>let</span> <span>detailDiv</span> <span>=</span> 
     <span>"""
     &lt;details&gt;
-        &lt;summary&gt; {{ product.details.description | string.truncate 15 }} &lt;summary&gt;
-        {{ product.details.description }}
+        &lt;summary&gt; &#123;&#123; product.details.description | string.truncate 15 &#124;&#124; &lt;summary&gt;
+        &#123;&#123; product.details.description &#124;&#124;
     &lt;/details&gt;
     """</span>
 
 <span>let</span> <span>renderProducts</span> <span>products</span> <span>=</span> 
     <span>let</span> <span>html</span> <span>=</span> 
         <span>// here with the help of sprintf</span>
-        <span>// and {{ "%s" | object.eval_template }}</span>
+        <span>// and &#123;&#123; "%s" | object.eval_template &#124;&#124;</span>
         <span>// we use F# to pre-process the template</span>
         <span>sprintf</span>
             <span>"""
             &lt;ul id='products'&gt;
-            {{ for product in products }}
+            &#123;&#123; for product in products &#124;&#124;
               &lt;li&gt;
-                &lt;h2&gt;{{ product.name }}&lt;/h2&gt;
-                     Price: {{ product.price }}
-                     {{ "</span><span>%</span><span>s</span><span>" | object.eval_template }}
+                &lt;h2&gt;&#123;&#123; product.name &#124;&#124;&lt;/h2&gt;
+                     Price: &#123;&#123; product.price &#124;&#124;
+                     &#123;&#123; "</span><span>%</span><span>s</span><span>" | object.eval_template &#124;&#124;
               &lt;/li&gt;
-            {{ end }}
+            &#123;&#123; end &#124;&#124;
             &lt;/ul&gt;
             """</span>
             <span>detailDiv</span>

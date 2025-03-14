@@ -167,7 +167,7 @@ This is tricky -- it's not in our standard format. But remember, ![\displaystyle
 
 We want an initial growth of 3x at the end of the period, or an instantaneous rate of ln(3). But, the _i_ comes along and changes that rate of ln(3) to "i \* ln(3)":
 
-![\displaystyle{3^i = (e^{\ln(3)})^i = e^{\ln(3)\cdot i}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/0babf08ce7b7ce3757baf483f33e88e2.png)
+![\displaystyle{3^i = (e^{\ln(3)})^i = e^{\ln(3)\cdot i&#124;&#124;](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/0babf08ce7b7ce3757baf483f33e88e2.png)
 
 We _thought_ we were going to transform at a regular rate of ln(3), a little faster than 100% continuous growth since e is about 2.718. But oh no, _i_ spun us around: now we're transforming at an imaginary rate which means we're just rotating about. If _i_ was a regular number like 4, it would have made us grow 4x faster. Now we're growing at a speed of ln(3), but sideways.
 
@@ -191,17 +191,17 @@ In order to start with 1 and grow to _i_ we need to start rotating at the outset
 
 This should make sense: to turn 1.0 to _i_ at the end of 1 unit, we should rotate radians (90 degrees) in that amount of time. So, to get "i" we can use .
 
-![\displaystyle{i = e^{i \frac{\pi}{2}}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/1eaa177a737ea966a723552d8aa73a94.png)
+![\displaystyle{i = e^{i \frac{\pi}{2&#124;&#124;}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/1eaa177a737ea966a723552d8aa73a94.png)
 
 Phew. That describes i as the base. How about the exponent?
 
 Well, the _other_ i tells us to change our rate -- yes, that rate we spent so long figuring out! So rather than rotating at a speed of , which is what a base of _i_ means, we transform the rate to:
 
-![\displaystyle{\frac{\pi}{2}i \cdot i = \frac{\pi}{2} \cdot -1 = -\frac{\pi}{2}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/337b4a4acc58dc5f3db90b14ac789602.png)
+![\displaystyle{\frac{\pi}{2}i \cdot i = \frac{\pi}{2} \cdot -1 = -\frac{\pi}{2&#124;&#124;](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/337b4a4acc58dc5f3db90b14ac789602.png)
 
 The i's cancel and make the growth rate real again! We rotated our rate and pushed ourselves into the negative numbers. And a negative growth rate means we're shrinking -- we should expect to make things smaller. And it does:
 
-![\displaystyle{i^i = e^{- \frac{\pi}{2}} \sim .2}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/ae77d7310bad7af54c5996ca77234c74.png)
+![\displaystyle{i^i = e^{- \frac{\pi}{2&#124;&#124; \sim .2}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/ae77d7310bad7af54c5996ca77234c74.png)
 
 Tada! (Search "i^i" on Google to use its calculator)
 
@@ -209,17 +209,17 @@ Take a breather: You can intuitively figure out how imaginary bases and imaginar
 
 And as a bonus, you figured out ln(i) -- to make become i, make e rotate radians.
 
-![\displaystyle{\ln(i) = i \cdot \frac{\pi}{2}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/ecba84581a86447fd8afe974b5b0082d.png)
+![\displaystyle{\ln(i) = i \cdot \frac{\pi}{2&#124;&#124;](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/ecba84581a86447fd8afe974b5b0082d.png)
 
 **Example: (i^i)^i**
 
 A double imaginary exponent? If you insist. First off, we know what our growth rate will be inside the parenthesis:
 
-![\displaystyle{i^i = (e^{\frac{\pi}{2}i})^i = e^{-\frac{\pi}{2}}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/75dec4aa2a2bdd2a18b963ec3198d2f4.png)
+![\displaystyle{i^i = (e^{\frac{\pi}{2}i})^i = e^{-\frac{\pi}{2&#124;&#124;}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/75dec4aa2a2bdd2a18b963ec3198d2f4.png)
 
 We get a negative (shrinking) growth rate of -pi/2. And now we modify that rate _again_ by _i_:
 
-![\displaystyle{(i^i)^i = (e^{-\frac{\pi}{2}})^i = e^{-\frac{\pi}{2}i}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/4fff11fd7fb2df19043fec759bda0f5c.png)
+![\displaystyle{(i^i)^i = (e^{-\frac{\pi}{2&#124;&#124;)^i = e^{-\frac{\pi}{2}i&#124;&#124;](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/4fff11fd7fb2df19043fec759bda0f5c.png)
 
 And now we have a negative rotation! We're going around the circle a rate of per unit time. How long do we go for? Well, there's an implicit "1" unit of time at the very top of this exponent chain; the implied default is to go for 1 time unit (just like ). 1 time unit gives us a rotation of radians (-90 degrees) or -i!
 

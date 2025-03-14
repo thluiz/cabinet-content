@@ -77,7 +77,7 @@ So we can use that to fill in the date for our task query:
 
 ## Task Log
 \```tasks
-done on {{date:YYYY-MM-DD}}
+done on &#123;&#123;date:YYYY-MM-DD&#124;&#124;
 \```
 ```
 

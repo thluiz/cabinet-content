@@ -133,7 +133,7 @@ defmodule NotionBlog.Notion.Client do use HTTPoison.Base @notion_api_url Applica
 The function `query_database/0` fetches all blog posts stored in Notion.
 
 ```elixir
-def query_database do path = "/databases/#{@database_id}/query" with {:ok, %HTTPoison.Response{status_code: 200, body: body}} <- HTTPoison.post(process_request_url(path), "{}", process_request_headers([])) do {:ok, Jason.decode!(body)} else _ -> {:error, "Failed to fetch articles"} end end
+def query_database do path = "/databases/#{@database_id}/query" with {:ok, %HTTPoison.Response{status_code: 200, body: body&#124;&#124; <- HTTPoison.post(process_request_url(path), "{}", process_request_headers([])) do {:ok, Jason.decode!(body)} else _ -> {:error, "Failed to fetch articles"} end end
 ```
 
 ##### Fetching a Single Article
@@ -141,7 +141,7 @@ def query_database do path = "/databases/#{@database_id}/query" with {:ok, %HTTP
 The function `get_article/1` retrieves an article by its ID.
 
 ```elixir
-def get_article(article_id) do path = "/pages/#{article_id}" with {:ok, %HTTPoison.Response{status_code: 200, body: body}} <- HTTPoison.get(process_request_url(path), process_request_headers([])) do {:ok, Jason.decode!(body)} else _ -> {:error, "Article not found"} end end
+def get_article(article_id) do path = "/pages/#{article_id}" with {:ok, %HTTPoison.Response{status_code: 200, body: body&#124;&#124; <- HTTPoison.get(process_request_url(path), process_request_headers([])) do {:ok, Jason.decode!(body)} else _ -> {:error, "Article not found"} end end
 ```
 
 ##### Explanation
@@ -171,7 +171,7 @@ With Notion set up as our CMS, we now need to fetch blog articles from its API a
 To display blog articles dynamically, we modify our router to fetch articles from Notion and render them using EEx templates.
 
 ```elixir
-defmodule NotionBlog.Router do use Plug.Router plug(:match) plug(:dispatch) @template_dir Path.expand("./templates", __DIR__) get "/blog" do with {:ok, %{"results" => articles}} <- NotionBlog.Notion.Client.query_database() do render(conn, "blog.html", title: "Blog", articles: articles) else _ -> send_resp(conn, 500, "Error fetching articles") end end get "/blog/:id" do with {:ok, article} <- NotionBlog.Notion.Client.get_page(id) do render(conn, "article.html", title: article["title"], article: article) else _ -> send_resp(conn, 404, "Article not found") end end defp render(conn, template, assigns) do body = @template_dir |> Path.join(template) |> EEx.eval_file(assigns: assigns) send_resp(conn, 200, body) end end
+defmodule NotionBlog.Router do use Plug.Router plug(:match) plug(:dispatch) @template_dir Path.expand("./templates", __DIR__) get "/blog" do with {:ok, %{"results" => articles&#124;&#124; <- NotionBlog.Notion.Client.query_database() do render(conn, "blog.html", title: "Blog", articles: articles) else _ -> send_resp(conn, 500, "Error fetching articles") end end get "/blog/:id" do with {:ok, article} <- NotionBlog.Notion.Client.get_page(id) do render(conn, "article.html", title: article["title"], article: article) else _ -> send_resp(conn, 404, "Article not found") end end defp render(conn, template, assigns) do body = @template_dir |> Path.join(template) |> EEx.eval_file(assigns: assigns) send_resp(conn, 200, body) end end
 ```
 
 ### Explanation

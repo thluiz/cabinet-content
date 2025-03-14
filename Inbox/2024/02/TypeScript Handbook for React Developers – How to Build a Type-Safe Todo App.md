@@ -972,9 +972,9 @@ export const TodoItem = (props: { todo: Todo }) => {
     >
       <motion.span
         layout
-        style={{
+        style=&#123;&#123;
           textDecoration: todo.status === 'completed' ? 'line-through' : 'none',
-        }}
+        &#124;&#124;
       >
         {todo.text}
       </motion.span>
@@ -1272,10 +1272,10 @@ export const TodoItem = (props: { todo: Todo }) => {
         <div className="flex flex-col gap-5">
           <motion.span
             layout
-            style={{
+            style=&#123;&#123;
               textDecoration:
                 todo.status === 'completed' ? 'line-through' : 'none',
-            }}
+            &#124;&#124;
           >
             {todo.text}
           </motion.span>

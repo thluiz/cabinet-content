@@ -91,7 +91,7 @@ At the application level, we can use these components like this:
 
 ```
 <span>label</span> <span>:=</span> <span>Label</span><span>{</span><span>Widget</span><span>{</span><span>10</span><span>,</span> <span>10</span><span>},</span> <span>"State:"</span><span>}</span>
-<span>button1</span> <span>:=</span> <span>Button</span><span>{</span><span>Label</span><span>{</span><span>Widget</span><span>{</span><span>10</span><span>,</span> <span>70</span><span>},</span> <span>"OK"</span><span>}}</span>
+<span>button1</span> <span>:=</span> <span>Button</span><span>{</span><span>Label</span><span>{</span><span>Widget</span><span>{</span><span>10</span><span>,</span> <span>70</span><span>},</span> <span>"OK"</span><span>&#124;&#124;</span>
 <span>button2</span> <span>:=</span> <span>NewButton</span><span>(</span><span>50</span><span>,</span> <span>70</span><span>,</span> <span>"Cancel"</span><span>)</span>
 <span>listBox</span> <span>:=</span> <span>ListBox</span><span>{</span><span>Widget</span><span>{</span><span>10</span><span>,</span> <span>40</span><span>},</span>
     <span>[]</span><span>string</span><span>{</span><span>"AL"</span><span>,</span> <span>"AK"</span><span>,</span> <span>"AZ"</span><span>,</span> <span>"AR"</span><span>},</span> <span>0</span><span>}</span>

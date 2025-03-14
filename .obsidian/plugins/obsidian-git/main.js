@@ -12820,7 +12820,7 @@ var require_compiler = __commonJS({
         "_t": 12
       };
       Hogan4.scan = function scan(text2, delimiters) {
-        var len = text2.length, IN_TEXT = 0, IN_TAG_TYPE = 1, IN_TAG = 2, state = IN_TEXT, tagType = null, tag2 = null, buf = "", tokens = [], seenTag = false, i = 0, lineStart = 0, otag = "{{", ctag = "}}";
+        var len = text2.length, IN_TEXT = 0, IN_TAG_TYPE = 1, IN_TAG = 2, state = IN_TEXT, tagType = null, tag2 = null, buf = "", tokens = [], seenTag = false, i = 0, lineStart = 0, otag = "&#123;&#123;", ctag = "&#124;&#124;";
         function addBuf() {
           if (buf.length > 0) {
             tokens.push({ tag: "_t", text: new String(buf) });
@@ -12907,7 +12907,7 @@ var require_compiler = __commonJS({
               i += ctag.length - 1;
               state = IN_TEXT;
               if (tagType == "{") {
-                if (ctag == "}}") {
+                if (ctag == "&#124;&#124;") {
                   i++;
                 } else {
                   cleanTripleStache(tokens[tokens.length - 1]);
@@ -29587,7 +29587,7 @@ var DATE_TIME_FORMAT_MINUTES = `${DATE_FORMAT} HH:mm`;
 var DATE_TIME_FORMAT_SECONDS = `${DATE_FORMAT} HH:mm:ss`;
 var GIT_LINE_AUTHORING_MOVEMENT_DETECTION_MINIMAL_LENGTH = 40;
 var DEFAULT_SETTINGS = {
-  commitMessage: "vault backup: {{date}}",
+  commitMessage: "vault backup: &#123;&#123;date&#124;&#124;",
   commitDateFormat: DATE_TIME_FORMAT_SECONDS,
   autoSaveInterval: 0,
   autoPushInterval: 0,
@@ -29858,16 +29858,16 @@ var GitManager = class {
   }
   async formatCommitMessage(template) {
     let status2;
-    if (template.includes("{{numFiles}}")) {
+    if (template.includes("&#123;&#123;numFiles&#124;&#124;")) {
       status2 = await this.status();
       const numFiles = status2.staged.length;
-      template = template.replace("{{numFiles}}", String(numFiles));
+      template = template.replace("&#123;&#123;numFiles&#124;&#124;", String(numFiles));
     }
-    if (template.includes("{{hostname}}")) {
+    if (template.includes("&#123;&#123;hostname&#124;&#124;")) {
       const hostname = this.plugin.localStorage.getHostname() || "";
-      template = template.replace("{{hostname}}", hostname);
+      template = template.replace("&#123;&#123;hostname&#124;&#124;", hostname);
     }
-    if (template.includes("{{files}}")) {
+    if (template.includes("&#123;&#123;files&#124;&#124;")) {
       status2 = status2 != null ? status2 : await this.status();
       const changeset = {};
       status2.staged.forEach((value) => {
@@ -29882,11 +29882,11 @@ var GitManager = class {
         chunks.push(action + " " + files2.join(" "));
       }
       const files = chunks.join(", ");
-      template = template.replace("{{files}}", files);
+      template = template.replace("&#123;&#123;files&#124;&#124;", files);
     }
     const moment6 = window.moment;
     template = template.replace(
-      "{{date}}",
+      "&#123;&#123;date&#124;&#124;",
       moment6().format(this.plugin.settings.commitDateFormat)
     );
     if (this.plugin.settings.listChangedFilesInMessageBody) {
@@ -32668,9 +32668,9 @@ var ObsidianGitSettingsTab = class extends import_obsidian8.PluginSettingTab {
         })
       );
       new import_obsidian8.Setting(containerEl).setName("Commit message on auto backup/commit").setDesc(
-        "Available placeholders: {{date}} (see below), {{hostname}} (see below), {{numFiles}} (number of changed files in the commit) and {{files}} (changed files in commit message)"
+        "Available placeholders: &#123;&#123;date&#124;&#124; (see below), &#123;&#123;hostname&#124;&#124; (see below), &#123;&#123;numFiles&#124;&#124; (number of changed files in the commit) and &#123;&#123;files&#124;&#124; (changed files in commit message)"
       ).addTextArea(
-        (text2) => text2.setPlaceholder("vault backup: {{date}}").setValue(plugin.settings.autoCommitMessage).onChange((value) => {
+        (text2) => text2.setPlaceholder("vault backup: &#123;&#123;date&#124;&#124;").setValue(plugin.settings.autoCommitMessage).onChange((value) => {
           plugin.settings.autoCommitMessage = value;
           plugin.saveSettings();
         })
@@ -32678,16 +32678,16 @@ var ObsidianGitSettingsTab = class extends import_obsidian8.PluginSettingTab {
       containerEl.createEl("br");
       containerEl.createEl("h3", { text: "Commit message" });
       new import_obsidian8.Setting(containerEl).setName("Commit message on manual backup/commit").setDesc(
-        "Available placeholders: {{date}} (see below), {{hostname}} (see below), {{numFiles}} (number of changed files in the commit) and {{files}} (changed files in commit message)"
+        "Available placeholders: &#123;&#123;date&#124;&#124; (see below), &#123;&#123;hostname&#124;&#124; (see below), &#123;&#123;numFiles&#124;&#124; (number of changed files in the commit) and &#123;&#123;files&#124;&#124; (changed files in commit message)"
       ).addTextArea(
-        (text2) => text2.setPlaceholder("vault backup: {{date}}").setValue(
+        (text2) => text2.setPlaceholder("vault backup: &#123;&#123;date&#124;&#124;").setValue(
           plugin.settings.commitMessage ? plugin.settings.commitMessage : ""
         ).onChange((value) => {
           plugin.settings.commitMessage = value;
           plugin.saveSettings();
         })
       );
-      const datePlaceholderSetting = new import_obsidian8.Setting(containerEl).setName("{{date}} placeholder format").addText(
+      const datePlaceholderSetting = new import_obsidian8.Setting(containerEl).setName("&#123;&#123;date&#124;&#124; placeholder format").addText(
         (text2) => text2.setPlaceholder(plugin.settings.commitDateFormat).setValue(plugin.settings.commitDateFormat).onChange(async (value) => {
           plugin.settings.commitDateFormat = value;
           await plugin.saveSettings();
@@ -32695,7 +32695,7 @@ var ObsidianGitSettingsTab = class extends import_obsidian8.PluginSettingTab {
       );
       datePlaceholderSetting.descEl.innerHTML = `
             Specify custom date format. E.g. "${DATE_TIME_FORMAT_SECONDS}. See <a href="https://momentjs.com">Moment.js</a> for more formats.`;
-      new import_obsidian8.Setting(containerEl).setName("{{hostname}} placeholder replacement").setDesc("Specify custom hostname for every device.").addText(
+      new import_obsidian8.Setting(containerEl).setName("&#123;&#123;hostname&#124;&#124; placeholder replacement").setDesc("Specify custom hostname for every device.").addText(
         (text2) => {
           var _a2;
           return text2.setValue((_a2 = plugin.localStorage.getHostname()) != null ? _a2 : "").onChange(async (value) => {
@@ -32776,7 +32776,7 @@ var ObsidianGitSettingsTab = class extends import_obsidian8.PluginSettingTab {
       });
     });
     new import_obsidian8.Setting(containerEl).setName("Show Date").setDesc(
-      "Show the date of the commit in the history view. The {{date}} placeholder format is used to display the date."
+      "Show the date of the commit in the history view. The &#123;&#123;date&#124;&#124; placeholder format is used to display the date."
     ).addToggle(
       (toggle) => toggle.setValue(plugin.settings.dateInHistoryView).onChange((value) => {
         plugin.settings.dateInHistoryView = value;
@@ -36221,7 +36221,7 @@ defaultTemplates["generic-block-header"] = new Hogan2.Template({ code: function(
   t.b('        <div class="');
   t.b(t.v(t.f("contentClass", c, p, 0)));
   t.b('">');
-  if (t.s(t.f("blockHeader", c, p, 1), c, p, 0, 156, 173, "{{ }}")) {
+  if (t.s(t.f("blockHeader", c, p, 1), c, p, 0, 156, 173, "&#123;&#123; &#124;&#124;")) {
     t.rs(c, p, function(c2, p2, t2) {
       t2.b(t2.t(t2.f("blockHeader", c2, p2, 0)));
     });
@@ -36306,7 +36306,7 @@ defaultTemplates["generic-line"] = new Hogan2.Template({ code: function(c, p, i)
   t.b(t.v(t.f("contentClass", c, p, 0)));
   t.b('">');
   t.b("\n" + i);
-  if (t.s(t.f("prefix", c, p, 1), c, p, 0, 162, 238, "{{ }}")) {
+  if (t.s(t.f("prefix", c, p, 1), c, p, 0, 162, 238, "&#123;&#123; &#124;&#124;")) {
     t.rs(c, p, function(c2, p2, t2) {
       t2.b('            <span class="d2h-code-line-prefix">');
       t2.b(t2.t(t2.f("prefix", c2, p2, 0)));
@@ -36320,7 +36320,7 @@ defaultTemplates["generic-line"] = new Hogan2.Template({ code: function(c, p, i)
     t.b("\n" + i);
   }
   ;
-  if (t.s(t.f("content", c, p, 1), c, p, 0, 371, 445, "{{ }}")) {
+  if (t.s(t.f("content", c, p, 1), c, p, 0, 371, 445, "&#123;&#123; &#124;&#124;")) {
     t.rs(c, p, function(c2, p2, t2) {
       t2.b('            <span class="d2h-code-line-ctn">');
       t2.b(t2.t(t2.f("content", c2, p2, 0)));
@@ -36963,10 +36963,10 @@ function create_rule(node, a, b, duration, delay2, ease, fn, uid = 0) {
   let keyframes = "{\n";
   for (let p = 0; p <= 1; p += step) {
     const t = a + (b - a) * ease(p);
-    keyframes += p * 100 + `%{${fn(t, 1 - t)}}
+    keyframes += p * 100 + `%{${fn(t, 1 - t)&#124;&#124;
 `;
   }
-  const rule = keyframes + `100% {${fn(b, 1 - b)}}
+  const rule = keyframes + `100% {${fn(b, 1 - b)&#124;&#124;
 }`;
   const name = `__svelte_${hash(rule)}_${uid}`;
   const doc = get_root_for_style(node);

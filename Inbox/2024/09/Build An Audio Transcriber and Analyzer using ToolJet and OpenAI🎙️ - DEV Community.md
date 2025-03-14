@@ -80,7 +80,7 @@ In the below steps, we will go through the configuration to interact with Open A
 
 [![Image description](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg1wpbxyluwy29otqhipr.png)](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg1wpbxyluwy29otqhipr.png)
 
--   Under **Body**, add `file` as the key and value as `{{ components.uploader.file[0] }}`. This will ensure the audio file selected in our uploader/File Picker component is sent.
+-   Under **Body**, add `file` as the key and value as `&#123;&#123; components.uploader.file[0] &#124;&#124;`. This will ensure the audio file selected in our uploader/File Picker component is sent.
 -   Add `model` as the key and enter `whisper-1` as the value.
 
 [![Image description](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd4pgec9dp0htbqp0jfbw.png)](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd4pgec9dp0htbqp0jfbw.png)
@@ -111,7 +111,7 @@ Once the audio is transcribed, we need to analyze it to provide a score. Let's u
 vocabulary: "...", intonation: "...", feedback: "..."}
 
    Transcribed text:
-   {{queries.transcribe.data.text}}
+   &#123;&#123;queries.transcribe.data.text&#124;&#124;
 </span>
 ```
 
@@ -144,21 +144,21 @@ Onto the final step. We have built our UI and also built queries to interact wit
 Now every time the Analyze Audio button is clicked, it will trigger the `transcribe` query.
 
 -   Select the **Copy Output** button and add a new event to it.
--   Select **On click** as the Event, **Copy to clipboard** as the Action, and `{{queries.analyze.data}}` as the Text.
+-   Select **On click** as the Event, **Copy to clipboard** as the Action, and `&#123;&#123;queries.analyze.data&#124;&#124;` as the Text.
 
 This configuration will ensure that the analyzed output gets copied when you click on the Copy Output button.
 
 -   Select the **Text** component that we had placed to display the transcript. Enter the following value under its Data property:  
-    **Transcript:** `{{queries.transcribe.data.text}}`
+    **Transcript:** `&#123;&#123;queries.transcribe.data.text&#124;&#124;`
     
 -   Select the **Text** component to display the feedback. Enter the following value under its Data property:  
-    **Feedback:** `{{JSON.parse(queries.analyze.data).feedback}}`
+    **Feedback:** `&#123;&#123;JSON.parse(queries.analyze.data).feedback&#124;&#124;`
     
 
 _Note:_ We received a JSON string in response to our `analyze` query. Therefore, we need to parse it to construct a JavaScript object before displaying it.
 
 -   Select the **Statistics** component for "Fluency" and enter the below value under its `Primary value` property:  
-    `{{JSON.parse(queries.analyze.data).fluency}}`
+    `&#123;&#123;JSON.parse(queries.analyze.data).fluency&#124;&#124;`
     
 -   Update the rest of the Statistics components using the same logic.
     

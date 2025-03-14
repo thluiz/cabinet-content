@@ -148,7 +148,7 @@ ___
 
 ## The normal distribution
 
-**$f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2}$**
+**$f(x) = \frac{1}{\sigma\sqrt{2\pi&#124;&#124; e^{-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2}$**
 
 The normal distribution is a foundational concept in statistics and probability theory. It describes the spread of data around the mean. It arises naturally in various situations and is significant because of the Central Limit Theorem. This theorem states that the sum of many independent random variables will approximately follow a normal distribution. The normal distribution is a crucial tool in inferential statistics, allowing for the creation of confidence intervals and hypothesis tests. It is essential for statistical modelling and prediction.
 
@@ -229,7 +229,7 @@ ___
 
 ## The Navier-Stokes equations
 
-**$\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{f}$**
+**$\frac{\partial \mathbf{u&#124;&#124;{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{f}$**
 
 The Navier-Stokes equations, named after Claude-Louis Navier and George Gabriel Stokes, are a set of nonlinear partial differential equations that describe the motion of fluid substances such as liquids and gases. These equations are foundational in fluid dynamics, capturing the essence of fluid flow phenomena by accounting for various forces acting on a fluid particle, including pressure, viscous, and external forces. The importance of the Navier-Stokes equations cannot be overstated; they are crucial for modeling weather patterns, designing aircraft and automobiles, understanding ocean currents, and analyzing the flow of blood in the human body. Furthermore, they play a critical role in environmental science, chemical engineering, and astrophysics. Solving these equations helps predict the behavior of fluids in complex scenarios, making them indispensable tools for engineers, physicists, and mathematicians in advancing technology and understanding natural phenomena.
 
@@ -255,7 +255,7 @@ ___
 
 ## Maxwell's equations
 
-**$\nabla \times \mathbf{H} = \mathbf{J} + \epsilon_0\frac{\partial \mathbf{E}}{\partial t}$**
+**$\nabla \times \mathbf{H} = \mathbf{J} + \epsilon_0\frac{\partial \mathbf{E&#124;&#124;{\partial t}$**
 
 Maxwell's equations, formulated by James Clerk Maxwell in the 19th century, are a set of fundamental laws that govern electricity and magnetism. The equations describe how electric charges and currents create electric and magnetic fields and how those fields interact with each other and with matter. Maxwell's equations are crucial for understanding and predicting the behavior of electromagnetic fields in various contexts, from classical electrodynamics to modern physics. They underpin virtually all modern electrical and electronic technologies, including generators, motors, radio, television, and telecommunications.
 
@@ -267,7 +267,7 @@ Assuming:
 -   $J$ is the current density vector
 -   $E$ is the electric field vector
 -   $\epsilon_0$ is the vacuum permittivity
--   $\frac{\partial \mathbf{E}}{\partial t}$ is approximated by the finite difference $\frac{\Delta \mathbf{E}}{\Delta t}$
+-   $\frac{\partial \mathbf{E&#124;&#124;{\partial t}$ is approximated by the finite difference $\frac{\Delta \mathbf{E&#124;&#124;{\Delta t}$
 
 Here is how you could write this in JavaScript:
 
@@ -421,7 +421,7 @@ The above eqations can be used to calculate the theoretical price of European ca
 -   $N(\cdot)$ is the cumulative distribution function of the standard normal distribution
 -   $d_1$ and $d_2$ are calculated as follows:
 
-$d_1 = \frac{\ln(\frac{S_0}{K}) + (r + \frac{\sigma^2}{2})T}{\sigma\sqrt{T}}$
+$d_1 = \frac{\ln(\frac{S_0}{K}) + (r + \frac{\sigma^2}{2})T}{\sigma\sqrt{T&#124;&#124;$
 
 $d_2 = d_1 - \sigma\sqrt{T}$
 

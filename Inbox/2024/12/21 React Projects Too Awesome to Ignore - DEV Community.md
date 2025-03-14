@@ -685,15 +685,15 @@ This is how you can create a GUI.
 <span>import</span> <span>styles</span> <span>from</span> <span>'</span><span>@chatscope/chat-ui-kit-styles/dist/default/styles.min.css</span><span>'</span><span>;</span>
 <span>import</span> <span>{</span> <span>MainContainer</span><span>,</span> <span>ChatContainer</span><span>,</span> <span>MessageList</span><span>,</span> <span>Message</span><span>,</span> <span>MessageInput</span> <span>}</span> <span>from</span> <span>'</span><span>@chatscope/chat-ui-kit-react</span><span>'</span><span>;</span>
 
-<span>&lt;</span><span>div</span> <span>style</span><span>=</span><span>{{</span> <span>position</span><span>:</span><span>"</span><span>relative</span><span>"</span><span>,</span> <span>height</span><span>:</span> <span>"</span><span>500px</span><span>"</span> <span>}}</span><span>&gt;</span>
+<span>&lt;</span><span>div</span> <span>style</span><span>=</span><span>&#123;&#123;</span> <span>position</span><span>:</span><span>"</span><span>relative</span><span>"</span><span>,</span> <span>height</span><span>:</span> <span>"</span><span>500px</span><span>"</span> <span>&#124;&#124;</span><span>&gt;</span>
   <span>&lt;</span><span>MainContainer</span><span>&gt;</span>
     <span>&lt;</span><span>ChatContainer</span><span>&gt;</span>       
       <span>&lt;</span><span>MessageList</span><span>&gt;</span>
-        <span>&lt;</span><span>Message</span> <span>model</span><span>=</span><span>{{</span>
+        <span>&lt;</span><span>Message</span> <span>model</span><span>=</span><span>&#123;&#123;</span>
                  <span>message</span><span>:</span> <span>"</span><span>Hello my friend</span><span>"</span><span>,</span>
                  <span>sentTime</span><span>:</span> <span>"</span><span>just now</span><span>"</span><span>,</span>
                  <span>sender</span><span>:</span> <span>"</span><span>Joe</span><span>"</span>
-                 <span>}}</span> <span>/</span><span>&gt;
+                 <span>&#124;&#124;</span> <span>/</span><span>&gt;
 </span>        <span>&lt;</span><span>/MessageList</span><span>&gt;
 </span>      <span>&lt;</span><span>MessageInput</span> <span>placeholder</span><span>=</span><span>"</span><span>Type message here</span><span>"</span> <span>/&gt;</span>        
     <span>&lt;</span><span>/ChatContainer</span><span>&gt;
@@ -898,12 +898,12 @@ This is an example React component that renders the current frame as text.
 <span>&nbsp;</span>
   <span>return </span><span>(</span>
     <span>&lt;</span><span>AbsoluteFill</span>
-      <span>style</span><span>=</span><span>{{</span>
+      <span>style</span><span>=</span><span>&#123;&#123;</span>
         <span>justifyContent</span><span>:</span> <span>"</span><span>center</span><span>"</span><span>,</span>
         <span>alignItems</span><span>:</span> <span>"</span><span>center</span><span>"</span><span>,</span>
         <span>fontSize</span><span>:</span> <span>100</span><span>,</span>
         <span>backgroundColor</span><span>:</span> <span>"</span><span>white</span><span>"</span><span>,</span>
-      <span>}}</span>
+      <span>&#124;&#124;</span>
     <span>&gt;</span>
       <span>The</span> <span>current</span> <span>frame</span> <span>is</span> <span>{</span><span>frame</span><span>}.</span>
     <span>&lt;</span><span>/AbsoluteFill</span><span>&gt;

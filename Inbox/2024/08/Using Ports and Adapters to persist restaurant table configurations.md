@@ -54,7 +54,7 @@ Which would result in this response:
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-{<span>"communalTable"</span>:{<span>"capacity"</span>:16}}
+{<span>"communalTable"</span>:{<span>"capacity"</span>:16&#124;&#124;
 ```
 
 By default, ASP.NET handles and returns JSON. Later in this article you'll see how well it deals with other data formats.

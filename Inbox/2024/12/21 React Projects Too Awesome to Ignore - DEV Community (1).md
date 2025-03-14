@@ -535,19 +535,19 @@ You can use 45+ customizable widgets to create beautiful responsive UI in minute
 
 [![validations](https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F489fly7tvknz2uv2mgei.png)](https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F489fly7tvknz2uv2mgei.png)
 
-Appsmith enables writing JavaScript code almost everywhere on the GUI inside widget properties, events listeners, queries, and other settings. Appsmith supports writing single-line code within `{{ }}` and interprets anything written between the brackets as a JavaScript expression.  
+Appsmith enables writing JavaScript code almost everywhere on the GUI inside widget properties, events listeners, queries, and other settings. Appsmith supports writing single-line code within `&#123;&#123; &#124;&#124;` and interprets anything written between the brackets as a JavaScript expression.  
 
 ```
 <span>/*Filter the data array received from a query*/</span>
-<span>{{</span> <span>QueryName</span><span>.</span><span>data</span><span>.</span><span>filter</span><span>((</span><span>row</span><span>)</span> <span>=&gt;</span> <span>row</span><span>.</span><span>id</span> <span>&gt;</span> <span>5</span> <span>)</span> <span>}}</span>
+<span>&#123;&#123;</span> <span>QueryName</span><span>.</span><span>data</span><span>.</span><span>filter</span><span>((</span><span>row</span><span>)</span> <span>=&gt;</span> <span>row</span><span>.</span><span>id</span> <span>&gt;</span> <span>5</span> <span>)</span> <span>&#124;&#124;</span>
 
 <span>or</span> 
 
-<span>{{</span>
+<span>&#123;&#123;</span>
   <span>storeValue</span><span>(</span><span>"</span><span>userID</span><span>"</span><span>,</span> <span>42</span><span>);</span>  
   <span>console</span><span>.</span><span>log</span><span>(</span><span>appsmith</span><span>.</span><span>store</span><span>.</span><span>userID</span><span>);</span> 
   <span>showAlert</span><span>(</span><span>"</span><span>userID saved</span><span>"</span><span>);</span>
-<span>}}</span>
+<span>&#124;&#124;</span>
 ```
 
 You need to use Immediately Invoked Function Expression (IIFE) to write multiple lines.
@@ -557,34 +557,34 @@ For instance, the invalid and valid code.
 ```
 <span>// invalid code</span>
 <span>/*Call a query to fetch the results and filter the data*/</span>
-<span>{{</span> 
+<span>&#123;&#123;</span> 
    <span>const</span> <span>array</span> <span>=</span> <span>QueryName</span><span>.</span><span>data</span><span>;</span>
    <span>const</span> <span>filterArray</span> <span>=</span> <span>array</span><span>.</span><span>filter</span><span>((</span><span>row</span><span>)</span> <span>=&gt;</span> <span>row</span><span>.</span><span>id</span> <span>&gt;</span> <span>5</span><span>);</span>
    <span>return</span> <span>filterArray</span><span>;</span>
-<span>}}</span>
+<span>&#124;&#124;</span>
 
 <span>/* Check the selected option and return the value*/</span>
-<span>{{</span> 
+<span>&#123;&#123;</span> 
   <span>if </span><span>(</span><span>Dropdown</span><span>.</span><span>selectedOptionValue</span> <span>===</span> <span>"</span><span>1</span><span>"</span><span>)</span> <span>{</span>
       <span>return</span> <span>"</span><span>Option 1</span><span>"</span><span>;</span>
   <span>}</span> <span>else</span> <span>{</span>
       <span>return</span> <span>"</span><span>Option 2</span><span>"</span><span>;</span>
   <span>}</span>
-<span>}}</span>
+<span>&#124;&#124;</span>
 
 <span>// valid code</span>
 <span>/* Call a query and then manipulate its result */</span>
-<span>{{</span> 
+<span>&#123;&#123;</span> 
   <span>(</span><span>function</span><span>()</span> <span>{</span>
       <span>const</span> <span>array</span> <span>=</span> <span>QueryName</span><span>.</span><span>data</span><span>;</span>
       <span>const</span> <span>filterArray</span> <span>=</span> <span>array</span><span>.</span><span>filter</span><span>((</span><span>row</span><span>)</span> <span>=&gt;</span> <span>row</span><span>.</span><span>id</span> <span>&gt;</span> <span>5</span><span>);</span>
       <span>return</span> <span>filterArray</span><span>;</span>
    <span>})()</span>
-<span>}}</span>
+<span>&#124;&#124;</span>
 
 <span>/* Verify the selected option and return the value*/</span>
 
-<span>{{</span> 
+<span>&#123;&#123;</span> 
   <span>(</span><span>function</span><span>()</span> <span>{</span>
       <span>if </span><span>(</span><span>Dropdown</span><span>.</span><span>selectedOptionValue</span> <span>===</span> <span>"</span><span>1</span><span>"</span><span>)</span> <span>{</span>
         <span>return</span> <span>"</span><span>Option 1</span><span>"</span><span>;</span>
@@ -592,7 +592,7 @@ For instance, the invalid and valid code.
         <span>return</span> <span>"</span><span>Option 2</span><span>"</span><span>;</span>
       <span>}</span>
    <span>})()</span>
-<span>}}</span>
+<span>&#124;&#124;</span>
 ```
 
 You can create anything from simple CRUD apps to complicated multi-step workflows with a few simple steps:
@@ -682,15 +682,15 @@ This is how you can create a GUI.
 <span>import</span> <span>styles</span> <span>from</span> <span>'</span><span>@chatscope/chat-ui-kit-styles/dist/default/styles.min.css</span><span>'</span><span>;</span>
 <span>import</span> <span>{</span> <span>MainContainer</span><span>,</span> <span>ChatContainer</span><span>,</span> <span>MessageList</span><span>,</span> <span>Message</span><span>,</span> <span>MessageInput</span> <span>}</span> <span>from</span> <span>'</span><span>@chatscope/chat-ui-kit-react</span><span>'</span><span>;</span>
 
-<span>&lt;</span><span>div</span> <span>style</span><span>=</span><span>{{</span> <span>position</span><span>:</span><span>"</span><span>relative</span><span>"</span><span>,</span> <span>height</span><span>:</span> <span>"</span><span>500px</span><span>"</span> <span>}}</span><span>&gt;</span>
+<span>&lt;</span><span>div</span> <span>style</span><span>=</span><span>&#123;&#123;</span> <span>position</span><span>:</span><span>"</span><span>relative</span><span>"</span><span>,</span> <span>height</span><span>:</span> <span>"</span><span>500px</span><span>"</span> <span>&#124;&#124;</span><span>&gt;</span>
   <span>&lt;</span><span>MainContainer</span><span>&gt;</span>
     <span>&lt;</span><span>ChatContainer</span><span>&gt;</span>       
       <span>&lt;</span><span>MessageList</span><span>&gt;</span>
-        <span>&lt;</span><span>Message</span> <span>model</span><span>=</span><span>{{</span>
+        <span>&lt;</span><span>Message</span> <span>model</span><span>=</span><span>&#123;&#123;</span>
                  <span>message</span><span>:</span> <span>"</span><span>Hello my friend</span><span>"</span><span>,</span>
                  <span>sentTime</span><span>:</span> <span>"</span><span>just now</span><span>"</span><span>,</span>
                  <span>sender</span><span>:</span> <span>"</span><span>Joe</span><span>"</span>
-                 <span>}}</span> <span>/</span><span>&gt;
+                 <span>&#124;&#124;</span> <span>/</span><span>&gt;
 </span>        <span>&lt;</span><span>/MessageList</span><span>&gt;
 </span>      <span>&lt;</span><span>MessageInput</span> <span>placeholder</span><span>=</span><span>"</span><span>Type message here</span><span>"</span> <span>/&gt;</span>        
     <span>&lt;</span><span>/ChatContainer</span><span>&gt;
@@ -895,12 +895,12 @@ This is an example React component that renders the current frame as text.
 <span>&nbsp;</span>
   <span>return </span><span>(</span>
     <span>&lt;</span><span>AbsoluteFill</span>
-      <span>style</span><span>=</span><span>{{</span>
+      <span>style</span><span>=</span><span>&#123;&#123;</span>
         <span>justifyContent</span><span>:</span> <span>"</span><span>center</span><span>"</span><span>,</span>
         <span>alignItems</span><span>:</span> <span>"</span><span>center</span><span>"</span><span>,</span>
         <span>fontSize</span><span>:</span> <span>100</span><span>,</span>
         <span>backgroundColor</span><span>:</span> <span>"</span><span>white</span><span>"</span><span>,</span>
-      <span>}}</span>
+      <span>&#124;&#124;</span>
     <span>&gt;</span>
       <span>The</span> <span>current</span> <span>frame</span> <span>is</span> <span>{</span><span>frame</span><span>}.</span>
     <span>&lt;</span><span>/AbsoluteFill</span><span>&gt;
