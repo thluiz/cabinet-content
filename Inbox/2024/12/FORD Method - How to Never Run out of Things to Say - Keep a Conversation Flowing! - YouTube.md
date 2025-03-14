@@ -2,7 +2,7 @@
 created: 2024-12-04T08:21:12 (UTC -03:00)
 tags: [Never run out of things to say,how to keep a conversation going,how to keep a conversation going with a girl,how to keep a conversation going with a guy,keep a conversation interesting,how to keep talking,the ford method,how to make small talk,small talk examples,how to keep talking to a girl,how to keep talking to a guy,how to keep talking to crush,conversation tip,conversation starters,keep a conversation flowing,practical psychology,improvementpill]
 source: https://www.youtube.com/watch?v=vU-ibdHkz4Y
-author: @swiftrian
+author: swiftrian
 ---
 
 # (117) How to Never Run out of Things to Say - Keep a Conversation Flowing! - YouTube
