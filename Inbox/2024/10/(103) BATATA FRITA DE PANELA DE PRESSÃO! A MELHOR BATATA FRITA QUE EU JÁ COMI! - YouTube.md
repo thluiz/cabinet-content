@@ -1,11 +1,3 @@
----
-created: 2024-10-21T10:57:31 (UTC -03:00)
-tags: [vídeo,compartilhamento,celular com câmera,videofone,gratuito,envio]
-source: https://www.youtube.com/watch?v=nTd1OxmfOpw
-author: sandrarenata7774
----
-
-# (103) BATATA FRITA DE PANELA DE PRESSÃO! A MELHOR BATATA FRITA QUE EU JÁ COMI! - YouTube
 
 > ## Excerpt
 > BATATA FRITA DE PANELA DE PRESSÃO! A MELHOR BATATA FRITA QUE EU JÁ COMI! Eu amo batata frita, bem sequinha, saborosa, e macia por dentro! Essa batata frita a...
