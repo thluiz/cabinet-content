@@ -2,20 +2,7 @@
 created: 2025-01-21T14:35:19 (UTC -03:00)
 tags: [vídeo,compartilhamento,celular com câmera,videofone,gratuito,envio]
 source: https://www.youtube.com/watch?v=cMGwOEIkQRo
-author: @IzzySealey
-  
-  
-
-
-
-
-
-
-
-        
-        
-          
-            há 1 dia (editado)
+author: IzzySealey
 ---
 
 # (131) 5 Self-Care Micro-Habits to be Unrecognisable in 2025 - YouTube

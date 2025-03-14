@@ -2,7 +2,7 @@
 created: 2024-10-18T11:42:11 (UTC -03:00)
 tags: [vídeo,compartilhamento,celular com câmera,videofone,gratuito,envio]
 source: https://www.youtube.com/watch?v=NQZZ21WZZr0
-author: @Damaniel3
+author: Damaniel3
 ---
 
 # (89) Linux/4004 - YouTube
