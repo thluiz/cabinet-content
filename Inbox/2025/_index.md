@@ -1,6 +1,6 @@
 ---
 title: 2025-03
-bookCollapseSection: true
+bookCollapseSection: false
 bookToc: true
 ---
 

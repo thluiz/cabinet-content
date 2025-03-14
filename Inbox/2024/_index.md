@@ -1,6 +1,6 @@
 ---
 title: "2024"
-bookCollapseSection: 
+bookCollapseSection: false
 bookToc: true
 ---
 
