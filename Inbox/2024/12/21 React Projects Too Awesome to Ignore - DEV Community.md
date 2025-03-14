@@ -539,15 +539,15 @@ Appsmith enables writing JavaScript code almost everywhere on the GUI inside wid
 
 ```
 <span>/*Filter the data array received from a query*/</span>
-<span>{{</span> <span>QueryName</span><span>.</span><span>data</span><span>.</span><span>filter</span><span>((</span><span>row</span><span>)</span> <span>=&gt;</span> <span>row</span><span>.</span><span>id</span> <span>&gt;</span> <span>5</span> <span>)</span> <span>}}</span>
+<span>{</span> <span>QueryName</span><span>.</span><span>data</span><span>.</span><span>filter</span><span>((</span><span>row</span><span>)</span> <span>=&gt;</span> <span>row</span><span>.</span><span>id</span> <span>&gt;</span> <span>5</span> <span>)</span> <span>}</span>
 
 <span>or</span> 
 
-<span>{{</span>
+<span>{</span>
   <span>storeValue</span><span>(</span><span>"</span><span>userID</span><span>"</span><span>,</span> <span>42</span><span>);</span>  
   <span>console</span><span>.</span><span>log</span><span>(</span><span>appsmith</span><span>.</span><span>store</span><span>.</span><span>userID</span><span>);</span> 
   <span>showAlert</span><span>(</span><span>"</span><span>userID saved</span><span>"</span><span>);</span>
-<span>}}</span>
+<span>}</span>
 ```
 
 You need to use Immediately Invoked Function Expression (IIFE) to write multiple lines.
